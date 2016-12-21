@@ -1,0 +1,18 @@
+.features {
+    background-color: #2e3b4e;
+
+    .features-container {
+        
+        .features-item {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 350px;
+
+            .features-item-title {
+                margin: 0;
+            }
+        }
+    }
+}

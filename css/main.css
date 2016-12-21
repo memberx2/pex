@@ -21,3 +21,33 @@
         .header .header-nav .header-nav-list .header-nav-item .header-nav-link {
           font-family: 'Open Sans', sans-serif;
           text-decoration: none; }
+
+.features {
+  background-color: #2e3b4e; }
+  .features .features-container .features-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 350px; }
+    .features .features-container .features-item .features-item-title {
+      margin: 0; }
+
+.ad {
+  background-image: url("../img/ad1-image.png"); }
+  .ad .ad-background-color {
+    background-color: #E7526B;
+    background-size: 100% 100%; }
+
+.photography-container {
+  background-image: url("../img/photography-background.png"); }
+
+.get-in-touch-container {
+  background-color: #E7526B; }
+
+.footer {
+  background-color: #2e3b4e; }
