@@ -1,0 +1,32 @@
+.header {
+    background: url("../img/header-background.png") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 700px;
+
+    .header-logo {
+        margin: 40px 0 0 209px;
+    }
+
+    .header-nav {
+        border-bottom: 0.1px groove #fff;
+        height: 103px;
+        
+
+        .header-nav-list {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+
+            .header-nav-item{
+                display: inline-block;
+                margin: 10px;
+
+                .header-nav-link {
+                    font-family: 'Open Sans', sans-serif;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
