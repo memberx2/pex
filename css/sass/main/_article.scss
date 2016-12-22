@@ -13,16 +13,24 @@
         .article-title {
             font-weight: bold;
             font-size: 15.02px;
+            padding-bottom: 18px;
         }
         .article-subtitle {
             font-size: 19px;
+            padding-bottom: 40px;
         }
         .article-description {
             font-size: 15px;
+            padding-bottom: 134px;
         }
     }
     .right-container {
         margin-left: 103px;
         margin-top: 94px;
+    }
+    .left-container {
+        margin-right: 103px;
+        margin-top: 94px;
+        margin-left:203px;
     }
 }

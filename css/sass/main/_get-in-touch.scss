@@ -1,3 +1,21 @@
 .get-in-touch-container {
     background-color: #E7526B;
+    height: 461px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    .get-in-touch-div {
+        padding-top: 78px;
+        .get-in-touch-title {
+            padding-bottom: 25px;
+        }
+
+        .get-in-touch-subtitle {
+            padding-bottom: 35px;
+            width: 400px;
+        }
+        .get-in-touch-link {
+            color: #fff;
+        }
+    }
 }
