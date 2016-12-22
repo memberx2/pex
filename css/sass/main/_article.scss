@@ -1,0 +1,28 @@
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    .article-image {
+        height: 450px;
+        width: auto;
+    }
+    .article-text-container {
+        font-family: 'Open Sans', sans-serif;
+        color: #3a4d60;
+        .article-title {
+            font-weight: bold;
+            font-size: 15.02px;
+        }
+        .article-subtitle {
+            font-size: 19px;
+        }
+        .article-description {
+            font-size: 15px;
+        }
+    }
+    .right-container {
+        margin-left: 103px;
+        margin-top: 94px;
+    }
+}

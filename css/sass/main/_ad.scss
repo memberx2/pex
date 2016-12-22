@@ -1,8 +1,36 @@
 .ad {
     background-image: url("../img/ad1-image.png");
-
+    height: 536px;
     .ad-background-color {
-        background-color: #E7526B;
-        background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+        .container {
+            margin: 0 403px;
+            padding-top: 156px;
+            text-align: center;
+            .ad-title {
+                font-size: 35px;
+                opacity: 1;
+                padding-bottom: 25px;
+                font-weight: normal;
+            }
+            .ad-description {
+                font-size: 15px;
+                opacity: 1;
+                padding-bottom: 25px;
+            }
+            .button {
+                border-radius: 30px;
+                height: 60px;
+                width: 282px;
+                background-color: #fff;
+                border: 0;
+                font-size: 18px;
+                color: #E7526B;
+            }
+        }
     }
 }

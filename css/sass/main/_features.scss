@@ -1,17 +1,28 @@
 .features {
     background-color: #2e3b4e;
-
-    .features-container {
-        
-        .features-item {
+    .container {
+        padding-bottom: 142px;
+        .features-list {
+            list-style-type: none;
             display: flex;
             justify-content: center;
-            flex-direction: row;
             flex-wrap: wrap;
-            width: 350px;
-
-            .features-item-title {
-                margin: 0;
+            flex-direction: row;
+            color: #fff;
+            .features-item {
+                flex-basis: 392px;
+                margin: 65px 34px 0 0;
+                font-family: 'Open Sans', sans-serif;
+                .features-item-title {
+                    margin: 0;
+                    font-weight: bold;
+                    font-size: 15.02px;
+                    padding-bottom: 34px;
+                }
+                .features-item-description {
+                    font-weight: normal;
+                    font-size: 15.02px;
+                }
             }
         }
     }
