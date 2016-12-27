@@ -4,21 +4,21 @@
     min-height: 700px;
     .header-nav {
         border-bottom: 0.1px groove #fff;
-        height: 103px;
+        height: 86px;
         .header-logo {
-            margin: 40px 0 0 209px;
+            margin: 32px 0 0 157px;
         }
         .header-nav-list {
             list-style-type: none;
             display: inline-block;
             float: right;
-            margin-top: 43px;
+            margin-top: 33px;
             .header-nav-item {
                 display: inline-block;
-                margin: 0 10px;
+                margin: 0 18px;
                 .header-nav-link {
                     font-family: 'Open Sans', sans-serif;
-                    font-size: 13px;
+                    font-size: 11px;
                     text-decoration: none;
                     color: #fff;
                     padding-bottom: 35px;
@@ -30,11 +30,11 @@
                     position: relative;
                     .search-input {
                         border-radius: 30px;
-                        height: 45px;
+                        height: 34px;
                         padding-left: 28px;
                         font-size: 12px;
                         font-family: 'Open Sans', sans-serif;
-                        width: 220px;
+                        width: 160px;
                         margin-top: -10px;
                         outline: none;
                     }
@@ -50,15 +50,17 @@
         }
     }
     .header-text-container {
-        margin-left: 279px;
-        margin-top: 163px;
-        width: 404px;
+        margin-left: 188px;
+        margin-top: 219px;
+        width: 418px;
         text-align: right;
         font-family: 'Open Sans', sans-serif;
         color: #fff;
         .header-title {
-            font-size: 40px;
+            font-size: 41px;
             font-weight: normal;
+                padding-bottom: 44px;
+                margin: 0;
         }
         .header-subtitle {
             font-size: 12px;
