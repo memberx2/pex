@@ -1,7 +1,7 @@
 .features {
     background-color: #2e3b4e;
     .container {
-        padding-bottom: 142px;
+        padding-bottom: 113px;
             max-width: 1100px;
         .features-list {
             list-style-type: none;
@@ -10,21 +10,30 @@
             flex-wrap: wrap;
             flex-direction: row;
             color: #fff;
+            padding: 13px 0 0 30px;
             .features-item {
-                flex-basis: 392px;
-                margin: 65px 34px 0 0;
+                flex-basis: 352px;
+                margin: 29px 5px 0 0;
                 font-family: 'Open Sans', sans-serif;
                 .features-item-title {
-                    margin: 0;
+                    margin: 18px 0 0 0;
                     font-weight: bold;
-                    font-size: 14px;
-                    padding-bottom: 34px;
+                    font-size: 13px;
+                    padding-bottom: 21px;
                 }
                 .features-item-description {
                     font-weight: normal;
-                    font-size: 13.5px;
+                    font-size: 13px;
+                        line-height: 22px;
                 }
             }
         }
+    }
+    .semicircle {
+       height: 0px;
+       margin-left: 625px;
+       .semicircle-image {
+               height: 29px;
+       }
     }
 }

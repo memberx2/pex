@@ -1,42 +1,47 @@
 .photography-container {
     background-image: url("../img/photography-background.png");
-    height: 668px;
+    height: 563px;
+    background-size: 100% auto;
     .container {
-        margin: 0 206px;
-        padding: 360px 0 87px;
+        margin: 0 175px;
+        padding: 303px 0 87px;
         color: #fff;
         font-family: 'Open Sans', sans-serif;
         .photography-sign {
             border: 1px solid #fff;
-            height: 36px;
-            width: 135px;
+                height: 28px;
+    width: 113px;
             border-radius: 30px;
             text-align: center;
             position: relative;
-            margin-bottom: 30px;
+            margin-bottom: 14px;
             .photography-sign-text {
-                font-size: 13px;
-                padding-top: 10px;
+                font-size: 11px;
+                padding-top: 6px;
                 position: absolute;
                 left: 21%;
             }
         }
         .photography-title {
-            margin-bottom: 32px;
-            font-size: 40px;
+            margin-bottom: 18px;
+            font-size: 34px;
             font-weight: normal;
+                width: 45%;
+    line-height: 43px;
         }
         .author-container {
             display: flex;
             margin-bottom: 90px;
-            width: 28%;
+            width: 23.8%;
             justify-content: space-between;
             .photography-image {
                 border-radius: 100%;
+                height: 38px;
             }
+            
             .photography-subtitle {
                 display: flex;
-                font-size: 13px;
+                font-size: 12px;
                 justify-content: center;
                 align-items: center;
             }

@@ -2,36 +2,39 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: auto;
+    height: 418px;
     .article-image {
-        height: 450px;
+        height: 419px;
         width: auto;
+    }
+    .watch {
+        height: 439px;
     }
     .article-text-container {
         font-family: 'Open Sans', sans-serif;
         color: #3a4d60;
         .article-title {
             font-weight: bold;
-            font-size: 15.02px;
-            padding-bottom: 18px;
+            font-size: 13px;
+            padding-bottom: 4px;
         }
         .article-subtitle {
-            font-size: 19px;
-            padding-bottom: 40px;
+            font-size: 16px;
+            padding-bottom: 24px;
+            line-height: 26px;
         }
         .article-description {
-            font-size: 15px;
-            padding-bottom: 134px;
+            font-size: 12px;
+            line-height: 21px;
         }
     }
     .right-container {
-        margin-left: 103px;
-        margin-top: 94px;
-        margin-right: 203px;
+        margin: 78px 203px 0 86px;
     }
     .left-container {
-        margin-right: 103px;
-        margin-top: 94px;
-        margin-left:203px;
+        margin: 92px 65px 0 178px;
     }
+}
+.watch-article {
+    height: 439px;
 }
