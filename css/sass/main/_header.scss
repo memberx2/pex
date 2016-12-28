@@ -3,7 +3,7 @@
     background-size: cover;
     min-height: 700px;
     .header-nav {
-        border-bottom: 0.1px groove #fff;
+        border-bottom: 0.1px groove $w-color;
         height: 86px;
         .header-logo {
             margin: 32px 0 0 162px;
@@ -20,10 +20,10 @@
                     font-family: 'Open Sans', sans-serif;
                     font-size: 11px;
                     text-decoration: none;
-                    color: #fff;
+                    color: $w-color;
                     padding-bottom: 35px;
                     &:hover {
-                        border-bottom: 2px solid #fff;
+                        border-bottom: 2px solid $w-color;
                     }
                 }
                 .header-search-form {
@@ -39,7 +39,7 @@
                         outline: none;
                     }
                     .icon-search-1 {
-                        color: #b6b6b6;
+                        color: $g-color;
                         margin-left: -10px;
                         position: absolute;
                         top: 7%;
@@ -55,7 +55,7 @@
         width: 419px;
         text-align: right;
         font-family: 'Open Sans', sans-serif;
-        color: #fff;
+        color: $w-color;
         .header-title {
             font-size: 41.5px;
             font-weight: normal;

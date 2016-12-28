@@ -4,7 +4,7 @@
     .ad-background-color {
         height: 100%;
         width: 100%;
-        color: #fff;
+        color: $w-color;
         font-weight: normal;
         font-family: 'Open Sans', sans-serif;
         .container {
@@ -28,10 +28,10 @@
                     border-radius: 30px;
                     height: 52px;
                     width: 284px;
-                    background-color: #fff;
+                    background-color: $w-color;
                     border: 0;
                     font-size: 16px;
-                    color: #E7526B;
+                    color: $p-color;
                 }
             }
         }
@@ -44,7 +44,7 @@
     .ad-container {
         height: 100%;
         width: 100%;
-        color: #fff;
+        color: $w-color;
         font-weight: normal;
         font-family: 'Open Sans', sans-serif;
         padding-top: 150px;
@@ -61,7 +61,7 @@
             padding-bottom: 25px;
             width: 750px;
             margin-left: 300px;
-            color: #a87bb7;
+            color: $lp-color;
             line-height: 27px;
         }
         .ad-description {

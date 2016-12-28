@@ -1,5 +1,5 @@
 .features {
-    background-color: #2e3b4e;
+    background-color: $features-background-color;
     .container {
         padding-bottom: 113px;
             max-width: 1100px;
@@ -9,7 +9,7 @@
             justify-content: center;
             flex-wrap: wrap;
             flex-direction: row;
-            color: #fff;
+            color: $w-color;
             padding: 13px 0 0 30px;
             .features-item {
                 flex-basis: 352px;

@@ -1,7 +1,7 @@
 .get-in-touch-container {
-    background-color: #E7526B;
+    background-color: $p-color;
     height: 387px;
-    color: #fff;
+    color: $w-color;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     .get-in-touch-div {
@@ -15,7 +15,7 @@
             line-height: 21px;
         }
         .get-in-touch-link {
-            color: #fff;
+            color: $w-color;
         }
     }
 }

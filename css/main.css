@@ -279,7 +279,8 @@
   width: 236px;
   background-color: #8824cd;
   border: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  font-weight: bold; }
 
 .last-sections-container {
   margin: 0 auto;
