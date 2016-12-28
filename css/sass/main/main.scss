@@ -21,8 +21,8 @@ body {
     @media screen and (max-width: $break-small) {
         max-width: 320px;
     }
-    @media screen and (min-width: $break-large) {
-        background-size: 100% auto;
+    @media screen and (max-width: $break-large) {
+max-width: 760px;
     }
 }
 
@@ -42,7 +42,7 @@ body {
     @media screen and (max-width: $break-small) {
         max-width: 320px;
     }
-    @media screen and (min-width: $break-large) {
-        background-size: 100% auto;
+    @media screen and (max-width: $break-large) {
+        max-width: 710px;
     }
 }

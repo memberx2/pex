@@ -15,8 +15,8 @@
                 margin: 0 auto;
                 padding-top: 141px;
             }
-            @media screen and (min-width: $break-large) {
-                background-size: 100% auto;
+            @media screen and (max-width: $break-large) {
+                margin: 0 auto;
             }
             .ad-title {
                 font-size: 29px;
@@ -25,9 +25,6 @@
                 @media screen and (max-width: $break-small) {
                     font-size: 20px;
                     padding-bottom: 13px;
-                }
-                @media screen and (min-width: $break-large) {
-                    background-size: 100% auto;
                 }
             }
             .ad-description {
@@ -39,17 +36,11 @@
                     width: 97%;
                     margin: 0 0 0 7px;
                 }
-                @media screen and (min-width: $break-large) {
-                    background-size: 100% auto;
-                }
             }
             .button-form {
                 margin-right: 2px;
                 @media screen and (max-width: $break-small) {
                     margin: 0 0 0 22px;
-                }
-                @media screen and (min-width: $break-large) {
-                    background-size: 100% auto;
                 }
                 .button {
                     border-radius: 30px;
@@ -61,9 +52,6 @@
                     color: $p-color;
                     @media screen and (max-width: $break-small) {
                         margin-right: 88px;
-                    }
-                    @media screen and (min-width: $break-large) {
-                        background-size: 100% auto;
                     }
                 }
             }
@@ -86,8 +74,8 @@
         @media screen and (max-width: $break-small) {
             padding-top: 119px;
         }
-        @media screen and (min-width: $break-large) {
-            background-size: 100% auto;
+        @media screen and (max-width: $break-large) {
+            margin: 0;
         }
         .ad-title {
             font-size: 33px;
@@ -98,8 +86,8 @@
                 margin: 15px 60px 10px 0;
                 font-size: 24px;
             }
-            @media screen and (min-width: $break-large) {
-                background-size: 100% auto;
+            @media screen and (max-width: $break-large) {
+                margin: 0;
             }
         }
         .ad-subtitle {
@@ -115,17 +103,24 @@
                 width: 358px;
                 margin: 0;
             }
-            @media screen and (min-width: $break-large) {
-                background-size: 100% auto;
+            @media screen and (max-width: $break-large) {
+                width: 762px;
+                margin: 0;
             }
         }
         .ad-description {
             font-size: 10px;
             margin: 9px 63px 0 0;
             background-size: 100% auto;
+            @media screen and (max-width: $break-large) {
+                margin-right: 0;
+            }
         }
     }
     .button-form {
         margin-right: 64px;
+        @media screen and (max-width: $break-large) {
+            margin: 0;
+        }
     }
 }

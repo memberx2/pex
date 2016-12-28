@@ -5,8 +5,8 @@
     @media screen and (max-width: $break-small) {
         background-size: 100% 100%;
     }
-    @media screen and (min-width: $break-large) {
-        background-size: 100% 100%;
+    @media screen and (max-width: $break-large) {
+             min-height: 1024px;
     }
     .header-nav {
         border-bottom: 0.1px groove $w-color;
@@ -16,7 +16,7 @@
             @media screen and (max-width: $break-small) {
                 margin: 36px 0 0 29px;
             }
-            @media screen and (min-width: $break-large) {
+            @media screen and (max-width: $break-large) {
                 margin: 32px 0 0 162px;
             }
         }
@@ -28,7 +28,7 @@
             @media screen and (max-width: $break-small) {
                 display: none;
             }
-            @media screen and (min-width: $break-large) {
+            @media screen and (max-width: $break-large) {
                 display: none;
             }
             .header-nav-item {
@@ -78,7 +78,6 @@
             margin: 0 auto;
             width: 81%;
         }
-        @media screen and (min-width: $break-large) {}
         .header-title {
             font-size: 41.5px;
             font-weight: normal;
@@ -92,18 +91,12 @@
                 padding-bottom: 20px;
                 line-height: 40px;
             }
-            @media screen and (min-width: $break-large) {
-                background-size: 100% auto;
-            }
         }
         .header-subtitle {
             font-size: 10px;
             margin: 9px 19px 0 0;
             @media screen and (max-width: $break-small) {
                margin: 9px 0 0 0;
-            }
-            @media screen and (min-width: $break-large) {
-                background-size: 100% auto;
             }
         }
     }

@@ -7,8 +7,8 @@
         flex-direction: column;
         height: 720px;
     }
-    @media screen and (min-width: $break-large) {
-        background-size: 100% auto;
+    @media screen and (max-width: $break-large) {
+        height: 100%;
     }
     .article-image {
         height: 419px;
@@ -17,8 +17,9 @@
             height: auto;
             width: 100%;
         }
-        @media screen and (min-width: $break-large) {
-            background-size: 100% auto;
+        @media screen and (max-width: $break-large) {
+            height: auto;
+            width: 100%;
         }
     }
     .watch {
@@ -27,8 +28,9 @@
             height: auto;
             width: 100%;
         }
-        @media screen and (min-width: $break-large) {
-            background-size: 100% auto;
+        @media screen and (max-width: $break-large) {
+            height: auto;
+            width: 100%;
         }
     }
     .article-text-container {
@@ -38,15 +40,26 @@
             font-weight: bold;
             font-size: 13px;
             padding-bottom: 4px;
+            @media screen and (max-width: $break-large) {
+                font-size: 11px;
+            }
         }
         .article-subtitle {
             font-size: 16px;
             padding-bottom: 24px;
             line-height: 26px;
+            @media screen and (max-width: $break-large) {
+                font-size: 14px;
+                line-height: 23px;
+            }
         }
         .article-description {
             font-size: 12px;
             line-height: 21px;
+            @media screen and (max-width: $break-large) {
+                font-size: 10px;
+                line-height: 18px;
+            }
         }
     }
     .right-container {
@@ -56,8 +69,9 @@
             width: 76%;
             padding-bottom: 10px;
         }
-        @media screen and (min-width: $break-large) {
-            background-size: 100% auto;
+        @media screen and (max-width: $break-large) {
+            margin: 15px 15px 0 25px;
+            width: 596px;
         }
     }
     .left-container {
@@ -67,8 +81,9 @@
             width: 76%;
             padding-top: 15px;
         }
-        @media screen and (min-width: $break-large) {
-            background-size: 100% auto;
+        @media screen and (max-width: $break-large) {
+            margin: 15px 19px 0 25px;
+            width: 596px;
         }
     }
 }
@@ -78,7 +93,7 @@
     @media screen and (max-width: $break-small) {
         height: 700px;
     }
-    @media screen and (min-width: $break-large) {
-        background-size: 100% auto;
+    @media screen and (max-width: $break-large) {
+        height: 100%;
     }
 }
