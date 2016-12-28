@@ -2,15 +2,27 @@
     background-image: url("../img/photography-background.png");
     height: 563px;
     background-size: 100% auto;
+    @media screen and (max-width: $break-small) {
+        height: 640px;
+        background-size: auto 100%;
+    }
+    @media screen and (min-width: $break-large) {
+        background-size: 100% auto;
+    }
     .container {
-        margin: 0 175px;
         padding: 303px 0 87px;
         color: $w-color;
         font-family: 'Open Sans', sans-serif;
+        @media screen and (max-width: $break-small) {
+            padding: 277px 0 87px;
+        }
+        @media screen and (min-width: $break-large) {
+            background-size: 100% auto;
+        }
         .photography-sign {
             border: 1px solid $w-color;
-                height: 28px;
-    width: 113px;
+            height: 28px;
+            width: 113px;
             border-radius: 30px;
             text-align: center;
             position: relative;
@@ -26,19 +38,31 @@
             margin-bottom: 18px;
             font-size: 34px;
             font-weight: normal;
-                width: 45%;
-    line-height: 43px;
+            width: 45%;
+            line-height: 43px;
+            @media screen and (max-width: $break-small) {
+                width: 86%;
+                font-size: 27px;
+            }
+            @media screen and (min-width: $break-large) {
+                background-size: 100% auto;
+            }
         }
         .author-container {
             display: flex;
             margin-bottom: 90px;
             width: 23.8%;
             justify-content: space-between;
+            @media screen and (max-width: $break-small) {
+                width: 74.8%;
+            }
+            @media screen and (min-width: $break-large) {
+                background-size: 100% auto;
+            }
             .photography-image {
                 border-radius: 100%;
                 height: 38px;
             }
-            
             .photography-subtitle {
                 display: flex;
                 font-size: 12px;

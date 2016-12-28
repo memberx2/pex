@@ -13,6 +13,12 @@
             padding-bottom: 24px;
             width: 362px;
             line-height: 21px;
+            @media screen and (max-width: $break-small) {
+                width: 326px;
+            }
+            @media screen and (min-width: $break-large) {
+                background-size: 100% auto;
+            }
         }
         .get-in-touch-link {
             color: $w-color;

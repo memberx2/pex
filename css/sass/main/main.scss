@@ -6,27 +6,43 @@
 @import "photography";
 @import "get-in-touch";
 @import "footer";
-
-*{
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
+        overflow-x: hidden;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1327px;
+    @media screen and (max-width: $break-small) {
+        max-width: 320px;
+    }
+    @media screen and (min-width: $break-large) {
+        background-size: 100% auto;
+    }
 }
 
 .button-color {
-            border-radius: 30px;
-            height: 52px;
-            width: 236px;
-            background-color: #8824cd;
-            border: 0;
-            font-size: 16px;
-            font-weight: bold;
-        }
+    border-radius: 30px;
+    height: 52px;
+    width: 236px;
+    background-color: #8824cd;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .last-sections-container {
     margin: 0 auto;
     max-width: 996px;
+    @media screen and (max-width: $break-small) {
+        max-width: 320px;
+    }
+    @media screen and (min-width: $break-large) {
+        background-size: 100% auto;
+    }
 }

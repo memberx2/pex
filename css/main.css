@@ -2,16 +2,34 @@
   background: url("../img/header-background.png") no-repeat center center fixed;
   background-size: cover;
   min-height: 700px; }
+  @media screen and (max-width: 420px) {
+    .header {
+      background-size: 100% 100%; } }
+  @media screen and (min-width: 1050px) {
+    .header {
+      background-size: 100% 100%; } }
   .header .header-nav {
     border-bottom: 0.1px groove #fff;
     height: 86px; }
     .header .header-nav .header-logo {
       margin: 32px 0 0 162px; }
+      @media screen and (max-width: 420px) {
+        .header .header-nav .header-logo {
+          margin: 36px 0 0 29px; } }
+      @media screen and (min-width: 1050px) {
+        .header .header-nav .header-logo {
+          margin: 32px 0 0 162px; } }
     .header .header-nav .header-nav-list {
       list-style-type: none;
       display: inline-block;
       float: right;
       margin-top: 33px; }
+      @media screen and (max-width: 420px) {
+        .header .header-nav .header-nav-list {
+          display: none; } }
+      @media screen and (min-width: 1050px) {
+        .header .header-nav .header-nav-list {
+          display: none; } }
       .header .header-nav .header-nav-list .header-nav-item {
         display: inline-block;
         margin: 0 16px; }
@@ -41,21 +59,41 @@
             top: 7%;
             right: 4%; }
   .header .header-text-container {
-    margin-left: 199px;
-    margin-top: 219px;
+    margin: 219px 0 0 199px;
     width: 419px;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
     color: #fff; }
+    @media screen and (max-width: 420px) {
+      .header .header-text-container {
+        text-align: center;
+        margin: 0 auto;
+        width: 81%; } }
     .header .header-text-container .header-title {
       font-size: 41.5px;
       font-weight: normal;
       padding-bottom: 37px;
       margin: 0;
       line-height: 59px; }
+      @media screen and (max-width: 420px) {
+        .header .header-text-container .header-title {
+          font-size: 30px;
+          margin-top: 181px;
+          width: 346px;
+          padding-bottom: 20px;
+          line-height: 40px; } }
+      @media screen and (min-width: 1050px) {
+        .header .header-text-container .header-title {
+          background-size: 100% auto; } }
     .header .header-text-container .header-subtitle {
       font-size: 10px;
       margin: 9px 19px 0 0; }
+      @media screen and (max-width: 420px) {
+        .header .header-text-container .header-subtitle {
+          margin: 9px 0 0 0; } }
+      @media screen and (min-width: 1050px) {
+        .header .header-text-container .header-subtitle {
+          background-size: 100% auto; } }
 
 .features {
   background-color: #2e3b4e; }
@@ -91,6 +129,14 @@
   .features .semicircle {
     height: 0px;
     margin-left: 625px; }
+    @media screen and (max-width: 420px) {
+      .features .semicircle {
+        margin: 0 auto;
+        width: 96px;
+        margin-top: -22px; } }
+    @media screen and (min-width: 1050px) {
+      .features .semicircle {
+        background-size: 100% auto; } }
     .features .semicircle .semicircle-image {
       height: 29px; }
 
@@ -107,17 +153,44 @@
       margin: 0 403px;
       padding-top: 122px;
       text-align: center; }
+      @media screen and (max-width: 420px) {
+        .ad1 .ad-background-color .container {
+          margin: 0 auto;
+          padding-top: 141px; } }
+      @media screen and (min-width: 1050px) {
+        .ad1 .ad-background-color .container {
+          background-size: 100% auto; } }
       .ad1 .ad-background-color .container .ad-title {
         font-size: 29px;
         padding-bottom: 13px;
         font-weight: normal; }
+        @media screen and (max-width: 420px) {
+          .ad1 .ad-background-color .container .ad-title {
+            font-size: 20px;
+            padding-bottom: 13px; } }
+        @media screen and (min-width: 1050px) {
+          .ad1 .ad-background-color .container .ad-title {
+            background-size: 100% auto; } }
       .ad1 .ad-background-color .container .ad-description {
         font-size: 13.2px;
         padding-bottom: 28px;
         width: 80%;
         margin: 0 0 0 46px; }
+        @media screen and (max-width: 420px) {
+          .ad1 .ad-background-color .container .ad-description {
+            width: 97%;
+            margin: 0 0 0 7px; } }
+        @media screen and (min-width: 1050px) {
+          .ad1 .ad-background-color .container .ad-description {
+            background-size: 100% auto; } }
       .ad1 .ad-background-color .container .button-form {
         margin-right: 2px; }
+        @media screen and (max-width: 420px) {
+          .ad1 .ad-background-color .container .button-form {
+            margin: 0 0 0 22px; } }
+        @media screen and (min-width: 1050px) {
+          .ad1 .ad-background-color .container .button-form {
+            background-size: 100% auto; } }
         .ad1 .ad-background-color .container .button-form .button {
           border-radius: 30px;
           height: 52px;
@@ -126,6 +199,12 @@
           border: 0;
           font-size: 16px;
           color: #E7526B; }
+          @media screen and (max-width: 420px) {
+            .ad1 .ad-background-color .container .button-form .button {
+              margin-right: 88px; } }
+          @media screen and (min-width: 1050px) {
+            .ad1 .ad-background-color .container .button-form .button {
+              background-size: 100% auto; } }
 
 .ad2 {
   background-image: url("../img/ad2-image.png");
@@ -139,11 +218,24 @@
     padding-top: 150px;
     margin: 0 30px;
     text-align: center; }
+    @media screen and (max-width: 420px) {
+      .ad2 .ad-container {
+        padding-top: 119px; } }
+    @media screen and (min-width: 1050px) {
+      .ad2 .ad-container {
+        background-size: 100% auto; } }
     .ad2 .ad-container .ad-title {
       font-size: 33px;
       padding-bottom: 18px;
       font-weight: normal;
       margin: 0 60px 0 0; }
+      @media screen and (max-width: 420px) {
+        .ad2 .ad-container .ad-title {
+          margin: 15px 60px 10px 0;
+          font-size: 24px; } }
+      @media screen and (min-width: 1050px) {
+        .ad2 .ad-container .ad-title {
+          background-size: 100% auto; } }
     .ad2 .ad-container .ad-subtitle {
       font-size: 18px;
       padding-bottom: 25px;
@@ -151,11 +243,21 @@
       margin-left: 300px;
       color: #a87bb7;
       line-height: 27px; }
+      @media screen and (max-width: 420px) {
+        .ad2 .ad-container .ad-subtitle {
+          font-size: 13px;
+          padding-bottom: 24px;
+          width: 358px;
+          margin: 0; } }
+      @media screen and (min-width: 1050px) {
+        .ad2 .ad-container .ad-subtitle {
+          background-size: 100% auto; } }
     .ad2 .ad-container .ad-description {
       font-size: 10px;
-      margin: 9px 63px 0 0; }
-    .ad2 .ad-container .button-form {
-      margin-right: 64px; }
+      margin: 9px 63px 0 0;
+      background-size: 100% auto; }
+  .ad2 .button-form {
+    margin-right: 64px; }
 
 .article {
   display: -ms-flexbox;
@@ -165,11 +267,33 @@
   -ms-flex-pack: justify;
       justify-content: space-between;
   height: 418px; }
+  @media screen and (max-width: 420px) {
+    .article {
+      -ms-flex-direction: column;
+          flex-direction: column;
+      height: 720px; } }
+  @media screen and (min-width: 1050px) {
+    .article {
+      background-size: 100% auto; } }
   .article .article-image {
     height: 419px;
     width: auto; }
+    @media screen and (max-width: 420px) {
+      .article .article-image {
+        height: auto;
+        width: 100%; } }
+    @media screen and (min-width: 1050px) {
+      .article .article-image {
+        background-size: 100% auto; } }
   .article .watch {
     height: 439px; }
+    @media screen and (max-width: 420px) {
+      .article .watch {
+        height: auto;
+        width: 100%; } }
+    @media screen and (min-width: 1050px) {
+      .article .watch {
+        background-size: 100% auto; } }
   .article .article-text-container {
     font-family: 'Open Sans', sans-serif;
     color: #3a4d60; }
@@ -186,21 +310,55 @@
       line-height: 21px; }
   .article .right-container {
     margin: 78px 203px 0 86px; }
+    @media screen and (max-width: 420px) {
+      .article .right-container {
+        margin: 0 auto;
+        width: 76%;
+        padding-bottom: 10px; } }
+    @media screen and (min-width: 1050px) {
+      .article .right-container {
+        background-size: 100% auto; } }
   .article .left-container {
     margin: 92px 65px 0 178px; }
+    @media screen and (max-width: 420px) {
+      .article .left-container {
+        margin: 0 auto;
+        width: 76%;
+        padding-top: 15px; } }
+    @media screen and (min-width: 1050px) {
+      .article .left-container {
+        background-size: 100% auto; } }
 
 .watch-article {
   height: 439px; }
+  @media screen and (max-width: 420px) {
+    .watch-article {
+      height: 700px; } }
+  @media screen and (min-width: 1050px) {
+    .watch-article {
+      background-size: 100% auto; } }
 
 .photography-container {
   background-image: url("../img/photography-background.png");
   height: 563px;
   background-size: 100% auto; }
+  @media screen and (max-width: 420px) {
+    .photography-container {
+      height: 640px;
+      background-size: auto 100%; } }
+  @media screen and (min-width: 1050px) {
+    .photography-container {
+      background-size: 100% auto; } }
   .photography-container .container {
-    margin: 0 175px;
     padding: 303px 0 87px;
     color: #fff;
     font-family: 'Open Sans', sans-serif; }
+    @media screen and (max-width: 420px) {
+      .photography-container .container {
+        padding: 277px 0 87px; } }
+    @media screen and (min-width: 1050px) {
+      .photography-container .container {
+        background-size: 100% auto; } }
     .photography-container .container .photography-sign {
       border: 1px solid #fff;
       height: 28px;
@@ -220,6 +378,13 @@
       font-weight: normal;
       width: 45%;
       line-height: 43px; }
+      @media screen and (max-width: 420px) {
+        .photography-container .container .photography-title {
+          width: 86%;
+          font-size: 27px; } }
+      @media screen and (min-width: 1050px) {
+        .photography-container .container .photography-title {
+          background-size: 100% auto; } }
     .photography-container .container .author-container {
       display: -ms-flexbox;
       display: flex;
@@ -227,6 +392,12 @@
       width: 23.8%;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+      @media screen and (max-width: 420px) {
+        .photography-container .container .author-container {
+          width: 74.8%; } }
+      @media screen and (min-width: 1050px) {
+        .photography-container .container .author-container {
+          background-size: 100% auto; } }
       .photography-container .container .author-container .photography-image {
         border-radius: 100%;
         height: 38px; }
@@ -253,6 +424,12 @@
       padding-bottom: 24px;
       width: 362px;
       line-height: 21px; }
+      @media screen and (max-width: 420px) {
+        .get-in-touch-container .get-in-touch-div .get-in-touch-subtitle {
+          width: 326px; } }
+      @media screen and (min-width: 1050px) {
+        .get-in-touch-container .get-in-touch-div .get-in-touch-subtitle {
+          background-size: 100% auto; } }
     .get-in-touch-container .get-in-touch-div .get-in-touch-link {
       color: #fff; }
 
@@ -269,9 +446,18 @@
   padding: 0;
   margin: 0; }
 
+body {
+  overflow-x: hidden; }
+
 .container {
   margin: 0 auto;
   max-width: 1327px; }
+  @media screen and (max-width: 420px) {
+    .container {
+      max-width: 320px; } }
+  @media screen and (min-width: 1050px) {
+    .container {
+      background-size: 100% auto; } }
 
 .button-color {
   border-radius: 30px;
@@ -285,3 +471,9 @@
 .last-sections-container {
   margin: 0 auto;
   max-width: 996px; }
+  @media screen and (max-width: 420px) {
+    .last-sections-container {
+      max-width: 320px; } }
+  @media screen and (min-width: 1050px) {
+    .last-sections-container {
+      background-size: 100% auto; } }

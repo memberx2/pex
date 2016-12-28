@@ -2,17 +2,35 @@
     background: url("../img/header-background.png") no-repeat center center fixed;
     background-size: cover;
     min-height: 700px;
+    @media screen and (max-width: $break-small) {
+        background-size: 100% 100%;
+    }
+    @media screen and (min-width: $break-large) {
+        background-size: 100% 100%;
+    }
     .header-nav {
         border-bottom: 0.1px groove $w-color;
         height: 86px;
         .header-logo {
             margin: 32px 0 0 162px;
+            @media screen and (max-width: $break-small) {
+                margin: 36px 0 0 29px;
+            }
+            @media screen and (min-width: $break-large) {
+                margin: 32px 0 0 162px;
+            }
         }
         .header-nav-list {
             list-style-type: none;
             display: inline-block;
             float: right;
             margin-top: 33px;
+            @media screen and (max-width: $break-small) {
+                display: none;
+            }
+            @media screen and (min-width: $break-large) {
+                display: none;
+            }
             .header-nav-item {
                 display: inline-block;
                 margin: 0 16px;
@@ -50,22 +68,43 @@
         }
     }
     .header-text-container {
-        margin-left: 199px;
-        margin-top: 219px;
+        margin: 219px 0 0 199px;
         width: 419px;
         text-align: right;
         font-family: 'Open Sans', sans-serif;
         color: $w-color;
+        @media screen and (max-width: $break-small) {
+            text-align: center;
+            margin: 0 auto;
+            width: 81%;
+        }
+        @media screen and (min-width: $break-large) {}
         .header-title {
             font-size: 41.5px;
             font-weight: normal;
             padding-bottom: 37px;
             margin: 0;
             line-height: 59px;
+            @media screen and (max-width: $break-small) {
+                font-size: 30px;
+                margin-top: 181px;
+                width: 346px;
+                padding-bottom: 20px;
+                line-height: 40px;
+            }
+            @media screen and (min-width: $break-large) {
+                background-size: 100% auto;
+            }
         }
         .header-subtitle {
             font-size: 10px;
             margin: 9px 19px 0 0;
+            @media screen and (max-width: $break-small) {
+               margin: 9px 0 0 0;
+            }
+            @media screen and (min-width: $break-large) {
+                background-size: 100% auto;
+            }
         }
     }
 }
