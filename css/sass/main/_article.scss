@@ -10,27 +10,40 @@
     @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
         height: 100%;
     }
-    .article-image {
-        height: 419px;
-        width: auto;
+    .article-image-container {
+        width: 45.7%;
         @media screen and (max-width: $break-small) {
-            height: auto;
             width: 100%;
         }
-        @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-            height: auto;
-            width: 100%;
+        .article-image {
+            height: 100%;
+            width: auto;
+            display: block;
+            @media screen and (max-width: $break-small) {
+                height: auto;
+                width: 100%;
+            }
+            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+                height: auto;
+                width: 100%;
+            }
         }
     }
-    .watch {
-        height: 439px;
+    .watch-image-container {
+        width: 42.7%;
         @media screen and (max-width: $break-small) {
-            height: auto;
             width: 100%;
         }
-        @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-            height: auto;
-            width: 100%;
+        .watch {
+            height: 439px;
+            @media screen and (max-width: $break-small) {
+                height: auto;
+                width: 100%;
+            }
+            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+                height: auto;
+                width: 100%;
+            }
         }
     }
     .article-text-container {
@@ -63,24 +76,24 @@
         }
     }
     .right-container {
-        margin: 5.7% 13% 0% 6.3%;
+        margin: 5.7% 14% 0 0;
         @media screen and (max-width: $break-small) {
             margin: 7% auto;
             width: 76%;
         }
         @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-            width: 73%;
+            width: 57%;
             margin: 3% 3% 1%;
         }
     }
     .left-container {
-        margin: 6.7% 5% 0% 13%;
+        margin: 7% 5% 0% 13%;
         @media screen and (max-width: $break-small) {
             margin: 7% auto;
             width: 76%;
         }
         @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-            width: 73%;
+            width: 52%;
             margin: 3% 3% 1%;
         }
     }
