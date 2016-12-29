@@ -6,17 +6,17 @@
         height: 640px;
         background-size: auto 100%;
     }
-    @media screen and (max-width: $break-large) {
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
         background-size: auto 100%;
     }
     .container {
-        padding: 303px 0 87px;
+        padding: 303px 0 0;
         color: $w-color;
         font-family: 'Open Sans', sans-serif;
         @media screen and (max-width: $break-small) {
             padding: 277px 0 87px;
         }
-        @media screen and (max-width: $break-large) {
+        @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
             padding-top: 233px;
         }
         .photography-sign {
@@ -44,7 +44,7 @@
                 width: 86%;
                 font-size: 27px;
             }
-            @media screen and (max-width: $break-large) {
+            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
                 width: 440px;
             }
         }
@@ -54,10 +54,10 @@
             width: 23.8%;
             justify-content: space-between;
             @media screen and (max-width: $break-small) {
-                width: 74.8%;
+                width: 47.8%;
             }
-            @media screen and (max-width: $break-large) {
-                width: 33.8%;
+            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+                width: 43.8%;
             }
             .photography-image {
                 border-radius: 100%;

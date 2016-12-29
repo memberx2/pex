@@ -5,8 +5,9 @@
     @media screen and (max-width: $break-small) {
         background-size: 100% 100%;
     }
-    @media screen and (max-width: $break-large) {
-             min-height: 1024px;
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        min-height: 1024px;
+        background-size: 100% 100%;
     }
     .header-nav {
         border-bottom: 0.1px groove $w-color;
@@ -16,8 +17,8 @@
             @media screen and (max-width: $break-small) {
                 margin: 36px 0 0 29px;
             }
-            @media screen and (max-width: $break-large) {
-                margin: 32px 0 0 162px;
+            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+                margin: 32px 0 0 66px;
             }
         }
         .header-nav-list {
@@ -28,8 +29,8 @@
             @media screen and (max-width: $break-small) {
                 display: none;
             }
-            @media screen and (max-width: $break-large) {
-                display: none;
+            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+
             }
             .header-nav-item {
                 display: inline-block;
@@ -68,7 +69,7 @@
         }
     }
     .header-text-container {
-        margin: 219px 0 0 199px;
+        margin: 219px 0 0 188px;
         width: 419px;
         text-align: right;
         font-family: 'Open Sans', sans-serif;
@@ -76,7 +77,7 @@
         @media screen and (max-width: $break-small) {
             text-align: center;
             margin: 0 auto;
-            width: 81%;
+            width: 84%;
         }
         .header-title {
             font-size: 41.5px;
@@ -87,7 +88,7 @@
             @media screen and (max-width: $break-small) {
                 font-size: 30px;
                 margin-top: 181px;
-                width: 346px;
+                    width: 100%;
                 padding-bottom: 20px;
                 line-height: 40px;
             }
@@ -96,7 +97,7 @@
             font-size: 10px;
             margin: 9px 19px 0 0;
             @media screen and (max-width: $break-small) {
-               margin: 9px 0 0 0;
+                margin: 9px 0 0 0;
             }
         }
     }

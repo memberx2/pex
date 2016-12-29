@@ -11,18 +11,14 @@
     margin: 0;
 }
 
-body {
-        overflow-x: hidden;
-}
-
 .container {
     margin: 0 auto;
     max-width: 1327px;
     @media screen and (max-width: $break-small) {
-        max-width: 320px;
+        max-width: 80%;
     }
-    @media screen and (max-width: $break-large) {
-max-width: 760px;
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        max-width: 80%;
     }
 }
 
@@ -40,9 +36,11 @@ max-width: 760px;
     margin: 0 auto;
     max-width: 996px;
     @media screen and (max-width: $break-small) {
-        max-width: 320px;
+        max-width: 80%;
     }
-    @media screen and (max-width: $break-large) {
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
         max-width: 710px;
+        margin: 0 auto;
+        width: 80%;
     }
 }

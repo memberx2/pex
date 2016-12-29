@@ -11,6 +11,9 @@
             flex-direction: row;
             color: $w-color;
             padding: 13px 0 0 30px;
+            @media screen and (max-width: $break-small) {
+                padding: 13px 0 0 20px;
+            }
             .features-item {
                 flex-basis: 352px;
                 margin: 29px 5px 0 0;
@@ -31,17 +34,8 @@
     }
     .semicircle {
         height: 0px;
-        margin-left: 625px;
-        @media screen and (max-width: $break-small) {
-            margin: 0 auto;
-            width: 96px;
-            margin-top: -22px;
-        }
-        @media screen and (max-width: $break-large) {
-            margin: 0 auto;
-            width: 96px;
-            margin-top: -22px;
-        }
+        margin: 0 auto;
+        width: 96px;
         .semicircle-image {
             height: 29px;
         }

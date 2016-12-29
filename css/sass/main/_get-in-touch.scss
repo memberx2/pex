@@ -1,9 +1,9 @@
 .get-in-touch-container {
     background-color: $p-color;
-    height: 387px;
     color: $w-color;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
+    padding-bottom: 14.2%;
     .get-in-touch-div {
         padding-top: 59px;
         .get-in-touch-title {
@@ -14,7 +14,7 @@
             width: 362px;
             line-height: 21px;
             @media screen and (max-width: $break-small) {
-                width: 326px;
+                width: 81%;
             }
         }
         .get-in-touch-link {
