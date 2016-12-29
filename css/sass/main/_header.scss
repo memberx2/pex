@@ -30,7 +30,7 @@
                 display: none;
             }
             @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-
+                display: none;
             }
             .header-nav-item {
                 display: inline-block;
@@ -87,8 +87,8 @@
             line-height: 59px;
             @media screen and (max-width: $break-small) {
                 font-size: 30px;
-                margin-top: 181px;
-                    width: 100%;
+                margin-top: 127px;
+                width: 100%;
                 padding-bottom: 20px;
                 line-height: 40px;
             }

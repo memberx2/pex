@@ -28,6 +28,9 @@
       @media screen and (max-width: 730px) {
         .header .header-nav .header-nav-list {
           display: none; } }
+      @media screen and (min-device-width: 731px) and (max-width: 1024px) {
+        .header .header-nav .header-nav-list {
+          display: none; } }
       .header .header-nav .header-nav-list .header-nav-item {
         display: inline-block;
         margin: 0 16px; }
@@ -76,7 +79,7 @@
       @media screen and (max-width: 730px) {
         .header .header-text-container .header-title {
           font-size: 30px;
-          margin-top: 181px;
+          margin-top: 127px;
           width: 100%;
           padding-bottom: 20px;
           line-height: 40px; } }
