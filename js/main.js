@@ -1,6 +1,11 @@
 $(document).ready(function () {
     window.sr = ScrollReveal().reveal('.scroll');
-
+    $(window).resize(function () {
+        if($(this).width() > 1024) {
+            $(".hamburger").hide();
+            $(".header-nav-list").show();
+        }
+    });
     $(".cross").hide();
     $(".mobile-shown").hide();
     $(".hamburger").click(function () {
