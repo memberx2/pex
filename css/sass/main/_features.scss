@@ -2,9 +2,16 @@
     background-color: $features-background-color;
 }
 
-.container {
+.features-container {
     padding-bottom: 113px;
     max-width: 1100px;
+    margin: 0 auto;
+    @media screen and (max-width: $break-small) {
+        max-width: 80%;
+    }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        max-width: 80%;
+    }
 }
 
 .features-list {
