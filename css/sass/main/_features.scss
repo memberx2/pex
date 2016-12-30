@@ -1,43 +1,50 @@
 .features {
     background-color: $features-background-color;
-    .container {
-        padding-bottom: 113px;
-        max-width: 1100px;
-        .features-list {
-            list-style-type: none;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            flex-direction: row;
-            color: $w-color;
-            padding: 13px 0 0 30px;
-            @media screen and (max-width: $break-small) {
-                padding: 13px 0 0 20px;
-            }
-            .features-item {
-                flex-basis: 352px;
-                margin: 29px 5px 0 0;
-                font-family: 'Open Sans', sans-serif;
-                .features-item-title {
-                    margin: 18px 0 0 0;
-                    font-weight: bold;
-                    font-size: 13px;
-                    padding-bottom: 21px;
-                }
-                .features-item-description {
-                    font-weight: normal;
-                    font-size: 13px;
-                    line-height: 22px;
-                }
-            }
-        }
+}
+
+.container {
+    padding-bottom: 113px;
+    max-width: 1100px;
+}
+
+.features-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: $w-color;
+    padding: 13px 0 0 30px;
+    @media screen and (max-width: $break-small) {
+        padding: 13px 0 0 20px;
     }
-    .semicircle {
-        height: 0px;
-        margin: 0 auto;
-        width: 96px;
-        .semicircle-image {
-            height: 29px;
-        }
-    }
+}
+
+.features-item {
+    flex-basis: 352px;
+    margin: 29px 5px 0 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.features-item-title {
+    margin: 18px 0 0 0;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 21px;
+}
+
+.features-item-description {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.semicircle {
+    height: 0px;
+    margin: 0 auto;
+    width: 96px;
+}
+
+.semicircle-image {
+    height: 29px;
 }

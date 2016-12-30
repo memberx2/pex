@@ -1,0 +1,59 @@
+.wicked {
+    background-image: url("../img/ad1-image.png");
+    height: 452px;
+    .wicked-background-color {
+        height: 100%;
+        width: 100%;
+        color: $w-color;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+        .container {
+            margin: 0 auto;
+            padding-top: 122px;
+            text-align: center;
+            width: 33%;
+            @media screen and (max-width: $break-small) {
+                margin: 0 auto;
+                padding-top: 141px;
+                width: 80%;
+            }
+            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+                margin: 0 auto;
+                width: 65%;
+            }
+            .wicked-title {
+                font-size: 29px;
+                padding-bottom: 9px;
+                font-weight: normal;
+                @media screen and (max-width: $break-small) {
+                    font-size: 20px;
+                }
+            }
+            .wicked-description {
+                font-size: 13.2px;
+                padding-bottom: 28px;
+                margin: 0 1px;
+                @media screen and (max-width: $break-small) {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+            .button-form {
+                margin-top: 24px;
+                .button {
+                    border-radius: 30px;
+                    height: 52px;
+                    width: 289px;
+                    background-color: $w-color;
+                    border: 0;
+                    font-size: 16px;
+                    color: $p-color;
+                    outline: none;
+                    @media screen and (max-width: $break-small) {
+                        width: 258px;
+                    }
+                }
+            }
+        }
+    }
+}

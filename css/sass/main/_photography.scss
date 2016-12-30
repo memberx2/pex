@@ -1,7 +1,7 @@
 .photography-container {
     background-image: url("../img/photography-background.png");
     height: 563px;
-    background-size: 100% auto;
+    background-size: cover;
     @media screen and (max-width: $break-small) {
         height: 640px;
         background-size: auto 100%;
