@@ -1,4 +1,4 @@
-.photography-container {
+.photography {
     background-image: url("../img/photography-background.png");
     height: 563px;
     background-size: cover;
@@ -9,66 +9,73 @@
     @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
         background-size: auto 100%;
     }
-    .container {
-        padding: 303px 0 0;
-        color: $w-color;
-        font-family: 'Open Sans', sans-serif;
-        @media screen and (max-width: $break-small) {
-            padding: 277px 0 87px;
-        }
-        @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-            padding-top: 233px;
-        }
-        .photography-sign {
-            border: 1px solid $w-color;
-            height: 28px;
-            width: 113px;
-            border-radius: 30px;
-            text-align: center;
-            position: relative;
-            margin-bottom: 14px;
-            .photography-sign-text {
-                font-size: 11px;
-                padding-top: 6px;
-                position: absolute;
-                left: 21%;
-            }
-        }
-        .photography-title {
-            margin-bottom: 18px;
-            font-size: 34px;
-            font-weight: normal;
-            width: 45%;
-            line-height: 43px;
-            @media screen and (max-width: $break-small) {
-                width: 86%;
-                font-size: 27px;
-            }
-            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-                width: 440px;
-            }
-        }
-        .author-container {
-            display: flex;
-            margin-bottom: 90px;
-            width: 23.8%;
-            justify-content: space-between;
-            @media screen and (max-width: $break-small) {
-                width: 47.8%;
-            }
-            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-                width: 38.8%;
-            }
-            .photography-image {
-                border-radius: 100%;
-                height: 38px;
-            }
-            .photography-subtitle {
-                display: flex;
-                font-size: 12px;
-                justify-content: center;
-                align-items: center;
-            }
-        }
+}
+
+.photography-container {
+    padding: 303px 0 0;
+    color: $w-color;
+    font-family: 'Open Sans', sans-serif;
+    @media screen and (max-width: $break-small) {
+        padding: 277px 0 87px;
     }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        padding-top: 233px;
+    }
+}
+
+.photography-sign {
+    border: 1px solid $w-color;
+    height: 28px;
+    width: 113px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.photography-sign-text {
+    font-size: 11px;
+    padding-top: 6px;
+    position: absolute;
+    left: 21%;
+}
+
+.photography-title {
+    margin-bottom: 18px;
+    font-size: 34px;
+    font-weight: normal;
+    width: 45%;
+    line-height: 43px;
+    @media screen and (max-width: $break-small) {
+        width: 86%;
+        font-size: 27px;
+    }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        width: 440px;
+    }
+}
+
+.author-container {
+    display: flex;
+    margin-bottom: 90px;
+    max-width: 25%;
+    justify-content: space-between;
+    @media screen and (max-width: $break-small) {
+        width: 47.8%;
+    }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        width: 38.8%;
+    }
+}
+
+.photography-image {
+    border-radius: 100%;
+    height: 38px;
+}
+
+.photography-subtitle {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
 }
