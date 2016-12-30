@@ -13,7 +13,7 @@
 }
 
 .article-image-container {
-    width: 45.7%;
+    width: 50.7%;
     @media screen and (max-width: $break-small) {
         width: 100%;
     }
@@ -21,8 +21,7 @@
 
 .article-image {
     height: 100%;
-    width: auto;
-    display: block;
+    /*display: block;*/
     @media screen and (max-width: $break-small) {
         height: auto;
         width: 100%;
@@ -34,9 +33,16 @@
 }
 
 .watch-image-container {
-    width: 42.7%;
-    @media screen and (max-width: $break-small) {
+    width: 46%;
+    text-align: right;
+    @media screen and (min-device-width: 0) and (max-width: $break-small) {
         width: 100%;
+    }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        width: 51.7%;
+    }
+    @media screen and (min-device-width: 1025px) and (max-device-width: 1116px) {
+        width: 93%;
     }
 }
 
@@ -47,14 +53,16 @@
         width: 100%;
     }
     @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-        height: auto;
-        width: 100%;
+        height: 100%;
     }
 }
 
 .article-text-container {
     font-family: 'Open Sans', sans-serif;
     color: $article-text-color;
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        width: 49%;
+    }
 }
 
 .article-title {
@@ -86,18 +94,19 @@
 }
 
 .right-container {
-    padding: 5.7% 14% 0 0;
+    padding: 5.7% 5% 0 6%;
+    width: 49.3%;
     @media screen and (max-width: $break-small) {
         margin: 7% auto;
         width: 76%;
     }
     @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
         width: 57%;
-        margin: 3% 3% 1%;
     }
 }
 
 .left-container {
+    width: 60%;
     padding: 7% 5% 0% 13%;
     @media screen and (max-width: $break-small) {
         margin: 7% auto;
@@ -105,7 +114,9 @@
     }
     @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
         width: 52%;
-        margin: 3% 3% 1%;
+    }
+    @media screen and (min-device-width: 1025px) and (max-device-width: 1116px) {
+        padding: 4% 5% 0% 9%;
     }
 }
 
