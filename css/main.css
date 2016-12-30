@@ -322,7 +322,7 @@
       width: 100%; } }
 
 .watch {
-  height: 439px; }
+  height: 100%; }
   @media screen and (max-width: 730px) {
     .watch {
       height: auto;
