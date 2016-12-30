@@ -501,8 +501,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 10.2px;
   padding-bottom: 20%; }
-  .footer .footer-div {
-    padding-top: 34px; }
+
+.footer-div {
+  padding-top: 34px; }
 
 .experience {
   background-image: url("../img/ad2-image.png");
