@@ -496,56 +496,61 @@
 .experience {
   background-image: url("../img/ad2-image.png");
   height: 464px; }
-  .experience .experience-container {
-    height: 100%;
-    width: 100%;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 150px;
-    margin: 0 auto;
-    width: 53%;
-    text-align: center; }
-    @media screen and (max-width: 730px) {
-      .experience .experience-container {
-        padding-top: 119px;
-        width: 80%; } }
-    @media screen and (min-device-width: 731px) and (max-width: 1024px) {
-      .experience .experience-container {
-        width: 97%; } }
-    .experience .experience-container .experience-title {
-      font-size: 33px;
-      padding-bottom: 18px;
-      font-weight: normal; }
-      @media screen and (max-width: 730px) {
-        .experience .experience-container .experience-title {
-          font-size: 24px; } }
-      @media screen and (min-device-width: 731px) and (max-width: 1024px) {
-        .experience .experience-container .experience-title {
-          margin: 0; } }
-    .experience .experience-container .experience-subtitle {
-      font-size: 17px;
-      padding-bottom: 25px;
-      width: 750px;
-      color: #a87bb7;
-      line-height: 27px; }
-      @media screen and (max-width: 730px) {
-        .experience .experience-container .experience-subtitle {
-          font-size: 13px;
-          padding-bottom: 24px; } }
-      @media screen and (min-device-width: 731px) and (max-width: 1024px) {
-        .experience .experience-container .experience-subtitle {
-          width: 762px;
-          margin: 0; } }
-    .experience .experience-container .experience-description {
-      font-size: 10px; }
-      @media screen and (min-device-width: 731px) and (max-width: 1024px) {
-        .experience .experience-container .experience-description {
-          margin-right: 0; } }
-  .experience .button-form {
-    margin: 21px 0 6px; }
-    @media screen and (min-device-width: 731px) and (max-width: 1024px) {
-      .experience .button-form {
-        margin: 25px 0 0; } }
+
+.experience-container {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 150px;
+  margin: 0 auto;
+  width: 53%;
+  text-align: center; }
+  @media screen and (max-width: 730px) {
+    .experience-container {
+      padding-top: 119px;
+      width: 80%; } }
+  @media screen and (min-device-width: 731px) and (max-width: 1024px) {
+    .experience-container {
+      width: 97%; } }
+
+.experience-title {
+  font-size: 33px;
+  padding-bottom: 18px;
+  font-weight: normal; }
+  @media screen and (max-width: 730px) {
+    .experience-title {
+      font-size: 24px; } }
+  @media screen and (min-device-width: 731px) and (max-width: 1024px) {
+    .experience-title {
+      margin: 0; } }
+
+.experience-subtitle {
+  font-size: 17px;
+  padding-bottom: 25px;
+  width: 750px;
+  color: #a87bb7;
+  line-height: 27px; }
+  @media screen and (max-width: 730px) {
+    .experience-subtitle {
+      font-size: 13px;
+      padding-bottom: 24px; } }
+  @media screen and (min-device-width: 731px) and (max-width: 1024px) {
+    .experience-subtitle {
+      width: 762px;
+      margin: 0; } }
+
+.experience-description {
+  font-size: 10px; }
+  @media screen and (min-device-width: 731px) and (max-width: 1024px) {
+    .experience-description {
+      margin-right: 0; } }
+
+.button-form {
+  margin: 21px 0 6px; }
+  @media screen and (min-device-width: 731px) and (max-width: 1024px) {
+    .button-form {
+      margin: 25px 0 0; } }
 
 * {
   padding: 0;

@@ -1,59 +1,64 @@
 .experience {
     background-image: url("../img/ad2-image.png");
     height: 464px;
-    .experience-container {
-        height: 100%;
-        width: 100%;
-        color: $w-color;
-        font-family: 'Open Sans', sans-serif;
-        padding-top: 150px;
-        margin: 0 auto;
-        width: 53%;
-        text-align: center;
-        @media screen and (max-width: $break-small) {
-            padding-top: 119px;
-            width: 80%;
-        }
-        @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-            width: 97%;
-        }
-        .experience-title {
-            font-size: 33px;
-            padding-bottom: 18px;
-            font-weight: normal;
-            @media screen and (max-width: $break-small) {
-                font-size: 24px;
-            }
-            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-                margin: 0;
-            }
-        }
-        .experience-subtitle {
-            font-size: 17px;
-            padding-bottom: 25px;
-            width: 750px;
-            color: $lp-color;
-            line-height: 27px;
-            @media screen and (max-width: $break-small) {
-                font-size: 13px;
-                padding-bottom: 24px;
-            }
-            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-                width: 762px;
-                margin: 0;
-            }
-        }
-        .experience-description {
-            font-size: 10px;
-            @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-                margin-right: 0;
-            }
-        }
+}
+
+.experience-container {
+    height: 100%;
+    width: 100%;
+    color: $w-color;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 53%;
+    text-align: center;
+    @media screen and (max-width: $break-small) {
+        padding-top: 119px;
+        width: 80%;
     }
-    .button-form {
-        margin: 21px 0 6px;
-        @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-            margin: 25px 0 0;
-        }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        width: 97%;
+    }
+}
+
+.experience-title {
+    font-size: 33px;
+    padding-bottom: 18px;
+    font-weight: normal;
+    @media screen and (max-width: $break-small) {
+        font-size: 24px;
+    }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        margin: 0;
+    }
+}
+
+.experience-subtitle {
+    font-size: 17px;
+    padding-bottom: 25px;
+    width: 750px;
+    color: $lp-color;
+    line-height: 27px;
+    @media screen and (max-width: $break-small) {
+        font-size: 13px;
+        padding-bottom: 24px;
+    }
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        width: 762px;
+        margin: 0;
+    }
+}
+
+.experience-description {
+    font-size: 10px;
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        margin-right: 0;
+    }
+}
+
+.button-form {
+    margin: 21px 0 6px;
+    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+        margin: 25px 0 0;
     }
 }
