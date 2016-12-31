@@ -21,7 +21,6 @@
 
 .article-image {
     height: 100%;
-    /*display: block;*/
     @media screen and (max-width: $break-small) {
         height: auto;
         width: 100%;
@@ -35,19 +34,20 @@
 .watch-image-container {
     width: 46%;
     text-align: right;
-    @media screen and (min-device-width: 0) and (max-width: $break-small) {
+    @media screen and (max-width: $break-small) {
         width: 100%;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-width: $break-large-start) and (max-device-width: $break-large-end) {
         width: 51.7%;
     }
-    @media screen and (min-device-width: 1025px) and (max-device-width: 1116px) {
-        width: 93%;
+    @media screen and (min-width: 1025px) and (max-width: 1116px) {
+        width: 50%;
     }
 }
 
 .watch {
     height: 100%;
+    width: 100%;
     @media screen and (max-width: $break-small) {
         height: auto;
         width: 100%;
@@ -115,8 +115,13 @@
     @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
         width: 52%;
     }
-    @media screen and (min-device-width: 1025px) and (max-device-width: 1116px) {
+    @media screen and (min-width: 1025px) and (max-width: 1270px) {
         padding: 4% 5% 0% 9%;
+        width: 35%;
+    }
+    @media screen and (min-width: 1271px) and (max-width: 1370px) {
+        padding: 4% 5% 0% 9%;
+        width: 43%;
     }
 }
 
