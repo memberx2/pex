@@ -38,27 +38,13 @@
 .watch-image-container {
     width: 46%;
     text-align: right;
-    @media screen and (max-width: $breakpoint-small) {
-        width: 100%;
-    }
-    @media screen and (min-width: $breakpoint-large-start) and (max-device-width: $breakpoint-large-end) {
-        width: 51.7%;
-    }
-    @media screen and (min-width: 1025px) and (max-width: 1116px) {
-        width: 50%;
-    }
+    overflow: hidden;
 }
 
 .watch {
     height: 100%;
     object-fit: cover;
-    @media screen and (max-width: $breakpoint-small) {
-        height: auto;
-        width: 100%;
-    }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
-        height: 100%;
-    }
+    
 }
 
 .article-text-container {

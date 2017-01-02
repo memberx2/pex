@@ -1,5 +1,7 @@
-@import "variables";
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
 @import "../../node_modules/include-media/dist/include-media";
+
+@import "variables";
 @import "header";
 @import "features";
 @import "wicked";
@@ -10,4 +12,3 @@
 @import "experience";
 @import "buttons";
 @import "container";
-@import "../../node_modules/normalize-scss/sass/normalize/import-now";
