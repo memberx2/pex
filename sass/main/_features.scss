@@ -6,10 +6,10 @@
     padding-bottom: 113px;
     max-width: 1100px;
     margin: 0 auto;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         max-width: 80%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         max-width: 80%;
     }
 }
@@ -22,27 +22,27 @@
     flex-direction: row;
     color: $color-primary;
     padding: 13px 0 0 30px;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         padding: 13px 0 0 20px;
     }
 }
 
 .features-item {
-    flex-basis: 352px;
-    margin: 29px 5px 0 0;
+    flex-basis: 392px;
+    margin: 29px 23px 0 0;
     font-family: $font-sans-serif;
 }
 
 .features-item-title {
     margin: 18px 0 0 0;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15.02px;
     padding-bottom: 21px;
 }
 
 .features-item-description {
     font-weight: normal;
-    font-size: 13px;
+    font-size: 15.02px;
     line-height: 22px;
 }
 

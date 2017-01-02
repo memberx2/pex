@@ -3,11 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     height: 419px;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         flex-direction: column;
         height: 100%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         height: 100%;
     }
 }
@@ -17,7 +17,7 @@
     /*background: url(../img/article1-image.png) no-repeat 50% 50%;
     background-size: cover;*/
 
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         width: 100%;
     }
 }
@@ -25,11 +25,11 @@
 .article-image {
     height: 100%;
     object-fit: cover;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         height: auto;
         width: 100%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         height: auto;
         width: 100%;
     }
@@ -50,34 +50,34 @@
 .article-text-container {
     font-family: $font-sans-serif;
     color: $color-secondary;
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         width: 49%;
     }
 }
 
 .article-title {
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
     padding-bottom: 4px;
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         font-size: 11px;
     }
 }
 
 .article-subtitle {
-    font-size: 16px;
+    font-size: 19px;
     padding-bottom: 4%;
     line-height: 26px;
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         font-size: 14px;
         line-height: 23px;
     }
 }
 
 .article-description {
-    font-size: 12.5px;
+    font-size: 15px;
     line-height: 21px;
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         font-size: 10px;
         line-height: 18px;
     }
@@ -86,11 +86,11 @@
 .right-container {
     padding: 5.7% 5% 0 6%;
     width: 49.3%;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         margin: 7% auto;
         width: 76%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         width: 57%;
     }
 }
@@ -98,11 +98,11 @@
 .left-container {
     width: 60%;
     padding: 7% 5% 0% 13%;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         margin: 7% auto;
         width: 76%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         width: 52%;
     }
     @media screen and (min-width: 1025px) and (max-width: 1270px) {
@@ -117,10 +117,10 @@
 
 .watch-article {
     height: 438px;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         height: 100%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         height: 100%;
     }
 }

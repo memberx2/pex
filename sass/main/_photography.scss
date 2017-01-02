@@ -2,11 +2,11 @@
     background-image: url(../img/photography-background.png);
     height: 563px;
     background-size: cover;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         height: 640px;
         background-size: auto 100%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         background-size: auto 100%;
     }
 }
@@ -15,10 +15,10 @@
     padding: 303px 0 0;
     color: $color-primary;
     font-family: $font-sans-serif;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         padding: 277px 0 87px;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         padding-top: 233px;
     }
 }
@@ -34,7 +34,7 @@
 }
 
 .photography-sign-text {
-    font-size: 11px;
+    font-size: 13px;
     padding-top: 6px;
     position: absolute;
     left: 21%;
@@ -42,15 +42,15 @@
 
 .photography-title {
     margin-bottom: 18px;
-    font-size: 34px;
+    font-size: 40px;
     font-weight: normal;
-    width: 45%;
+    width: 53%;
     line-height: 43px;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         width: 86%;
         font-size: 27px;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         width: 440px;
     }
 }
@@ -60,10 +60,10 @@
     margin-bottom: 90px;
     max-width: 25%;
     justify-content: space-between;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         width: 47.8%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         width: 38.8%;
     }
 }
@@ -75,7 +75,7 @@
 
 .photography-subtitle {
     display: flex;
-    font-size: 12px;
+    font-size: 13px;
     justify-content: center;
     align-items: center;
 }

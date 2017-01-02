@@ -1,27 +1,25 @@
-.button-color {
+.button {
     border-radius: 30px;
-    height: 52px;
-    width: 236px;
-    background-color: $color-button-primary;
+    height: 62px;
     border: 0;
-    font-size: 16px;
+    font-size: 18px;
+    outline: none;
+}
+
+.button-color {
+    width: 282px;
+    background-color: $color-button-primary;
     font-weight: bold;
     border-top: thin solid $color-button-secondary;
     box-shadow: 0px 0px 2px 0px $color-button-secondary;
-    outline: none;
     color: $color-primary;
 }
 
-.button {
-    border-radius: 30px;
-    height: 52px;
+.button-white {
     width: 289px;
     background-color: $color-primary;
-    border: 0;
-    font-size: 16px;
     color: $color-background-secondary;
-    outline: none;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         width: 258px;
     }
 }

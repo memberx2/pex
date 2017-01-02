@@ -2,7 +2,7 @@
     background-color: $color-background-secondary;
     color: $color-primary;
     font-family: $font-sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     padding-bottom: 14.2%;
 }
 
@@ -18,7 +18,7 @@
     padding-bottom: 24px;
     width: 362px;
     line-height: 21px;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         width: 81%;
     }
 }

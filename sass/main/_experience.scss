@@ -10,55 +10,55 @@
     font-family: $font-sans-serif;
     padding-top: 150px;
     margin: 0 auto;
-    width: 53%;
+    width: 56%;
     text-align: center;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         padding-top: 119px;
         width: 80%;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         width: 97%;
     }
 }
 
 .experience-title {
-    font-size: 33px;
+    font-size: 40px;
     padding-bottom: 18px;
     font-weight: normal;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         font-size: 24px;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         margin: 0;
     }
 }
 
 .experience-subtitle {
-    font-size: 17px;
+    font-size: 20px;
     padding-bottom: 25px;
     width: 750px;
     color: $color-secondary-subtitle;
     line-height: 27px;
-    @media screen and (max-width: $breakpoint-small) {
+    @include media ("<=tablet") {
         font-size: 13px;
         padding-bottom: 24px;
     }
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         width: 762px;
         margin: 0;
     }
 }
 
 .experience-description {
-    font-size: 10px;
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    font-size: 11.95px;
+    @include media (">tablet", "<=desktop") {
         margin-right: 0;
     }
 }
 
 .button-form {
     margin: 21px 0 6px;
-    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+    @include media (">tablet", "<=desktop") {
         margin: 25px 0 0;
     }
 }
