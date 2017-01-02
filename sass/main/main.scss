@@ -1,0 +1,27 @@
+@import "variables";
+@import "header";
+@import "features";
+@import "wicked";
+@import "article";
+@import "photography";
+@import "get-in-touch";
+@import "footer";
+@import "experience";
+@import "buttons";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.last-sections-container {
+    margin: 0 auto;
+    max-width: 996px;
+    @media screen and (max-width: $breakpoint-small) {
+        max-width: 80%;
+    }
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        max-width: 710px;
+        margin: 0 auto;
+        width: 80%;
+    }
+}

@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 // są one wypisane w pliku package.json
 
 gulp.task('appcss', function () {   // definicja taska kompilującego sass
-  return gulp.src('css/sass/**/*.scss') // wzorzec plików ktore mają być skompilowane (pliki z rozszerzeniem *.scss ze wszystkich podfolderów i folderu Content/app)
+  return gulp.src('sass/**/*.scss') // wzorzec plików ktore mają być skompilowane (pliki z rozszerzeniem *.scss ze wszystkich podfolderów i folderu Content/app)
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({ browsers: ['last 3 versions'] }))
         .pipe(flatten())
@@ -27,7 +27,7 @@ gulp.task('minifycss', ['appcss'], function () {    // definicja taska minifikuj
 })
 
 gulp.task('watchappcss', function () {  // definicja taska typu watch który sprawdza uruchamia się gdy zajdą jakieś zmiany w plikach pasujących do podanego wzorca
-  return gulp.watch('css/sass/**/*.scss', ['appcss', 'minifycss'])  // czyli wszystkie pliki z rozszerzeniem *.scss ze wszystkich podfolderów i folderu Content/app
+  return gulp.watch('sass/**/*.scss', ['appcss', 'minifycss'])  // czyli wszystkie pliki z rozszerzeniem *.scss ze wszystkich podfolderów i folderu Content/app
 })
 
 gulp.task('default', ['watchappcss'])

@@ -1,0 +1,140 @@
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 419px;
+    @media screen and (max-width: $breakpoint-small) {
+        flex-direction: column;
+        height: 100%;
+    }
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        height: 100%;
+    }
+}
+
+.article-image-container {
+    width: 50.7%;
+    /*background: url(../img/article1-image.png) no-repeat 50% 50%;
+    background-size: cover;*/
+
+    @media screen and (max-width: $breakpoint-small) {
+        width: 100%;
+    }
+}
+
+.article-image {
+    height: 100%;
+    object-fit: cover;
+    @media screen and (max-width: $breakpoint-small) {
+        height: auto;
+        width: 100%;
+    }
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.watch-image-container {
+    width: 46%;
+    text-align: right;
+    @media screen and (max-width: $breakpoint-small) {
+        width: 100%;
+    }
+    @media screen and (min-width: $breakpoint-large-start) and (max-device-width: $breakpoint-large-end) {
+        width: 51.7%;
+    }
+    @media screen and (min-width: 1025px) and (max-width: 1116px) {
+        width: 50%;
+    }
+}
+
+.watch {
+    height: 100%;
+    object-fit: cover;
+    @media screen and (max-width: $breakpoint-small) {
+        height: auto;
+        width: 100%;
+    }
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        height: 100%;
+    }
+}
+
+.article-text-container {
+    font-family: $font-sans-serif;
+    color: $color-secondary;
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        width: 49%;
+    }
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 4px;
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        font-size: 11px;
+    }
+}
+
+.article-subtitle {
+    font-size: 16px;
+    padding-bottom: 4%;
+    line-height: 26px;
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
+
+.article-description {
+    font-size: 12.5px;
+    line-height: 21px;
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+.right-container {
+    padding: 5.7% 5% 0 6%;
+    width: 49.3%;
+    @media screen and (max-width: $breakpoint-small) {
+        margin: 7% auto;
+        width: 76%;
+    }
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        width: 57%;
+    }
+}
+
+.left-container {
+    width: 60%;
+    padding: 7% 5% 0% 13%;
+    @media screen and (max-width: $breakpoint-small) {
+        margin: 7% auto;
+        width: 76%;
+    }
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        width: 52%;
+    }
+    @media screen and (min-width: 1025px) and (max-width: 1270px) {
+        padding: 4% 5% 0% 9%;
+        width: 35%;
+    }
+    @media screen and (min-width: 1271px) and (max-width: 1370px) {
+        padding: 4% 5% 0% 9%;
+        width: 43%;
+    }
+}
+
+.watch-article {
+    height: 438px;
+    @media screen and (max-width: $breakpoint-small) {
+        height: 100%;
+    }
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
+        height: 100%;
+    }
+}

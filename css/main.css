@@ -36,7 +36,7 @@
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    z-index: 10000000000000; } }
+    z-index: 10; } }
 
 @media screen and (max-width: 1024px) {
   .cross {
@@ -52,7 +52,7 @@
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    z-index: 10000000000000;
+    z-index: 10;
     display: none; } }
 
 @media screen and (min-width: 1024px) {
@@ -65,7 +65,7 @@
 @media screen and (max-width: 1023px) {
   .header-nav-list {
     display: none;
-    z-index: 1000000;
+    z-index: 10;
     width: 100%;
     background: #fff;
     position: absolute;
@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 1024px) {
   .header-nav-link {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 11px;
     text-decoration: none;
     color: #fff;
@@ -112,10 +112,11 @@
   height: 34px;
   padding-left: 28px;
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
   width: 160px;
   margin-top: -10px;
-  outline: none; }
+  outline: none;
+  border: 0; }
 
 .icon-search {
   color: #b6b6b6;
@@ -128,7 +129,7 @@
   margin: 219px 0 0 188px;
   width: 419px;
   text-align: right;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
   color: #fff; }
   @media screen and (max-width: 730px) {
     .header-text-container {
@@ -191,7 +192,7 @@
   -ms-flex-preferred-size: 352px;
       flex-basis: 352px;
   margin: 29px 5px 0 0;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: Open Sans, sans-serif; }
 
 .features-item-title {
   margin: 18px 0 0 0;
@@ -213,7 +214,7 @@
   height: 29px; }
 
 .wicked {
-  background-image: url("../img/ad1-image.png");
+  background-image: url(../img/ad1-image.png);
   height: 452px; }
   .wicked:before {
     content: '';
@@ -226,7 +227,7 @@
   width: 100%;
   color: #fff;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: Open Sans, sans-serif; }
 
 .wicked-container {
   margin: 0 auto;
@@ -264,19 +265,6 @@
 .button-form {
   margin-top: 24px; }
 
-.button {
-  border-radius: 30px;
-  height: 52px;
-  width: 289px;
-  background-color: #fff;
-  border: 0;
-  font-size: 16px;
-  color: #E7526B;
-  outline: none; }
-  @media screen and (max-width: 730px) {
-    .button {
-      width: 258px; } }
-
 .article {
   display: -ms-flexbox;
   display: flex;
@@ -296,14 +284,15 @@
 
 .article-image-container {
   width: 50.7%;
-  background: url(../img/article1-image.png) no-repeat 50% 50%;
-  background-size: cover; }
+  /*background: url(../img/article1-image.png) no-repeat 50% 50%;
+    background-size: cover;*/ }
   @media screen and (max-width: 730px) {
     .article-image-container {
       width: 100%; } }
 
 .article-image {
-  height: 100%; }
+  height: 100%;
+  object-fit: cover; }
   @media screen and (max-width: 730px) {
     .article-image {
       height: auto;
@@ -328,7 +317,7 @@
 
 .watch {
   height: 100%;
-  width: 100%; }
+  object-fit: cover; }
   @media screen and (max-width: 730px) {
     .watch {
       height: auto;
@@ -338,7 +327,7 @@
       height: 100%; } }
 
 .article-text-container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
   color: #3a4d60; }
   @media screen and (min-device-width: 731px) and (max-width: 1024px) {
     .article-text-container {
@@ -409,7 +398,7 @@
       height: 100%; } }
 
 .photography {
-  background-image: url("../img/photography-background.png");
+  background-image: url(../img/photography-background.png);
   height: 563px;
   background-size: cover; }
   @media screen and (max-width: 730px) {
@@ -423,7 +412,7 @@
 .photography-container {
   padding: 303px 0 0;
   color: #fff;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: Open Sans, sans-serif; }
   @media screen and (max-width: 730px) {
     .photography-container {
       padding: 277px 0 87px; } }
@@ -490,7 +479,7 @@
 .get-in-touch-container {
   background-color: #E7526B;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 13px;
   padding-bottom: 14.2%; }
 
@@ -514,7 +503,7 @@
 .footer {
   background-color: #2e3b4e;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 10.2px;
   padding-bottom: 20%; }
 
@@ -522,14 +511,14 @@
   padding-top: 34px; }
 
 .experience {
-  background-image: url("../img/ad2-image.png");
+  background-image: url(../img/ad2-image.png);
   height: 464px; }
 
 .experience-container {
   height: 100%;
   width: 100%;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
   padding-top: 150px;
   margin: 0 auto;
   width: 53%;
@@ -580,10 +569,6 @@
     .button-form {
       margin: 25px 0 0; } }
 
-* {
-  padding: 0;
-  margin: 0; }
-
 .button-color {
   border-radius: 30px;
   height: 52px;
@@ -595,6 +580,23 @@
   border-top: thin solid #b87ce1;
   box-shadow: 0px 0px 2px 0px #b87ce1;
   outline: none; }
+
+.button {
+  border-radius: 30px;
+  height: 52px;
+  width: 289px;
+  background-color: #fff;
+  border: 0;
+  font-size: 16px;
+  color: #E7526B;
+  outline: none; }
+  @media screen and (max-width: 730px) {
+    .button {
+      width: 258px; } }
+
+* {
+  padding: 0;
+  margin: 0; }
 
 .last-sections-container {
   margin: 0 auto;

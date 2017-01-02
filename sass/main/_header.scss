@@ -5,76 +5,77 @@
 }
 
 .header-nav {
-    border-bottom: 0.1px groove $w-color;
+    border-bottom: 0.1px groove $color-primary;
     height: 86px;
 }
 
+
 .header-logo {
     margin: 32px 0 0 162px;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         margin: 36px 0 0 29px;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
         margin: 32px 0 0 66px;
     }
 }
 
 .hamburger-menu-buttons-group {
     display: none;
-    @media screen and (max-width: $break-large-end) {
+    @media screen and (max-width: $breakpoint-large-end) {
         display: block;
     }
 }
 
 .hamburger {
-    @media screen and (max-width: $break-large-end) {
+    @media screen and (max-width: $breakpoint-large-end) {
         background: none;
         position: absolute;
         top: 0;
         right: 0;
         line-height: 85px;
         padding: 5px 17px 0px 15px;
-        color: $w-color;
+        color: $color-primary;
         border: 0;
         font-size: 45px;
         font-weight: bold;
         cursor: pointer;
         outline: none;
-        z-index: 10000000000000;
+        z-index: 10;
     }
 }
 
 .cross {
-    @media screen and (max-width: $break-large-end) {
+    @media screen and (max-width: $breakpoint-large-end) {
         background: none;
         position: absolute;
         top: 0px;
         right: 0;
         padding: 13px 15px 0px 15px;
-        color: $article-text-color;
+        color: $color-secondary;
         border: 0;
         font-size: 48px;
         line-height: 65px;
         font-weight: bold;
         cursor: pointer;
         outline: none;
-        z-index: 10000000000000;
+        z-index: 10;
         display: none;
     }
 }
 
 .header-nav-list {
-    @media screen and (min-width: $break-large-end) {
+    @media screen and (min-width: $breakpoint-large-end) {
         list-style-type: none;
         display: inline-block;
         float: right;
         margin-top: 33px;
     }
-    @media screen and (max-width: $break-large-end - 1) {
+    @media screen and (max-width: $breakpoint-large-end - 1) {
         display: none;
-        z-index: 1000000;
+        z-index: 10;
         width: 100%;
-        background: $w-color;
+        background: $color-primary;
         position: absolute;
         text-align: center;
         top: 0;
@@ -86,32 +87,32 @@
 }
 
 .header-nav-item {
-    @media screen and (min-width: $break-large-end) {
+    @media screen and (min-width: $breakpoint-large-end) {
         display: inline-block;
         margin: 0 16px;
     }
-    @media screen and (max-width: $break-large-end) {
+    @media screen and (max-width: $breakpoint-large-end) {
         padding: 15px 0 15px 0;
     }
 }
 
 .header-nav-link {
-    @media screen and (min-width: $break-large-end) {
-        font-family: 'Open Sans', sans-serif;
+    @media screen and (min-width: $breakpoint-large-end) {
+        font-family: $font-sans-serif;
         font-size: 11px;
         text-decoration: none;
-        color: $w-color;
+        color: $color-primary;
         padding-bottom: 35px;
     }
-    @media screen and (max-width: $break-large-end) {
-        color: $article-text-color;
+    @media screen and (max-width: $breakpoint-large-end) {
+        color: $color-secondary;
         text-decoration: none;
         font-size: 20px;
     }
 }
 
 .header-nav-link:hover {
-    border-bottom: 2px solid $w-color;
+    border-bottom: 2px solid $color-primary;
 }
 
 .header-search-form {
@@ -125,14 +126,15 @@
     height: 34px;
     padding-left: 28px;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-sans-serif;
     width: 160px;
     margin-top: -10px;
     outline: none;
+    border: 0;
 }
 
 .icon-search {
-    color: $g-color;
+    color: $color-icon;
     margin-left: -10px;
     position: absolute;
     top: 7%;
@@ -143,9 +145,9 @@
     margin: 219px 0 0 188px;
     width: 419px;
     text-align: right;
-    font-family: 'Open Sans', sans-serif;
-    color: $w-color;
-    @media screen and (max-width: $break-small) {
+    font-family: $font-sans-serif;
+    color: $color-primary;
+    @media screen and (max-width: $breakpoint-small) {
         text-align: center;
         margin: 0 auto;
         width: 84%;
@@ -158,7 +160,7 @@
     padding-bottom: 37px;
     margin: 0;
     line-height: 59px;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         font-size: 30px;
         margin-top: 127px;
         width: 100%;
@@ -170,7 +172,7 @@
 .header-subtitle {
     font-size: 10px;
     margin: 9px 19px 0 0;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         margin: 9px 0 0 0;
     }
 }

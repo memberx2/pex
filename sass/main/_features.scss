@@ -1,15 +1,15 @@
 .features {
-    background-color: $features-background-color;
+    background-color: $color-background;
 }
 
 .features-container {
     padding-bottom: 113px;
     max-width: 1100px;
     margin: 0 auto;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         max-width: 80%;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
         max-width: 80%;
     }
 }
@@ -20,9 +20,9 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    color: $w-color;
+    color: $color-primary;
     padding: 13px 0 0 30px;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         padding: 13px 0 0 20px;
     }
 }
@@ -30,7 +30,7 @@
 .features-item {
     flex-basis: 352px;
     margin: 29px 5px 0 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-sans-serif;
 }
 
 .features-item-title {

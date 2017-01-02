@@ -1,5 +1,5 @@
 .wicked {
-    background-image: url("../img/ad1-image.png");
+    background-image: url(../img/ad1-image.png);
     height: 452px;
 
     &:before {
@@ -13,9 +13,9 @@
 .wicked-background-color {
     height: 100%;
     width: 100%;
-    color: $w-color;
+    color: $color-primary;
     font-weight: normal;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-sans-serif;
 }
 
 .wicked-container {
@@ -24,12 +24,12 @@
     text-align: center;
     width: 33%;
     max-width: 1327px;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         margin: 0 auto;
         padding-top: 141px;
         width: 80%;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
         margin: 0 auto;
         width: 65%;
     }
@@ -39,7 +39,7 @@
     font-size: 29px;
     padding-bottom: 9px;
     font-weight: normal;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         font-size: 20px;
     }
 }
@@ -48,7 +48,7 @@
     font-size: 13.2px;
     padding-bottom: 28px;
     margin: 0 1px;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         width: 100%;
         margin: 0 auto;
     }
@@ -58,16 +58,3 @@
     margin-top: 24px;
 }
 
-.button {
-    border-radius: 30px;
-    height: 52px;
-    width: 289px;
-    background-color: $w-color;
-    border: 0;
-    font-size: 16px;
-    color: $p-color;
-    outline: none;
-    @media screen and (max-width: $break-small) {
-        width: 258px;
-    }
-}

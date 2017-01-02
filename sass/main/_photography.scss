@@ -1,30 +1,30 @@
 .photography {
-    background-image: url("../img/photography-background.png");
+    background-image: url(../img/photography-background.png);
     height: 563px;
     background-size: cover;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         height: 640px;
         background-size: auto 100%;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
         background-size: auto 100%;
     }
 }
 
 .photography-container {
     padding: 303px 0 0;
-    color: $w-color;
-    font-family: 'Open Sans', sans-serif;
-    @media screen and (max-width: $break-small) {
+    color: $color-primary;
+    font-family: $font-sans-serif;
+    @media screen and (max-width: $breakpoint-small) {
         padding: 277px 0 87px;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
         padding-top: 233px;
     }
 }
 
 .photography-sign {
-    border: 1px solid $w-color;
+    border: 1px solid $color-primary;
     height: 28px;
     width: 113px;
     border-radius: 30px;
@@ -46,11 +46,11 @@
     font-weight: normal;
     width: 45%;
     line-height: 43px;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         width: 86%;
         font-size: 27px;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
         width: 440px;
     }
 }
@@ -60,10 +60,10 @@
     margin-bottom: 90px;
     max-width: 25%;
     justify-content: space-between;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         width: 47.8%;
     }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
+    @media screen and (min-device-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end) {
         width: 38.8%;
     }
 }

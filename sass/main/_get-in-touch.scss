@@ -1,7 +1,7 @@
 .get-in-touch-container {
-    background-color: $p-color;
-    color: $w-color;
-    font-family: 'Open Sans', sans-serif;
+    background-color: $color-background-secondary;
+    color: $color-primary;
+    font-family: $font-sans-serif;
     font-size: 13px;
     padding-bottom: 14.2%;
 }
@@ -18,11 +18,11 @@
     padding-bottom: 24px;
     width: 362px;
     line-height: 21px;
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $breakpoint-small) {
         width: 81%;
     }
 }
 
 .get-in-touch-link {
-    color: $w-color;
+    color: $color-primary;
 }
