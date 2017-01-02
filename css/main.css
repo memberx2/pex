@@ -1,14 +1,7 @@
 .header {
-  background: url("../img/header-background.png") no-repeat center center fixed;
+  background: url(../img/header-background.png) no-repeat 50% 50% fixed;
   background-size: cover;
-  min-height: 700px; }
-  @media screen and (max-width: 730px) {
-    .header {
-      background-size: 100% 100%; } }
-  @media screen and (min-device-width: 731px) and (max-width: 1024px) {
-    .header {
-      min-height: 1024px;
-      background-size: 100% 100%; } }
+  min-height: 100vh; }
 
 .header-nav {
   border-bottom: 0.1px groove #fff;
@@ -222,6 +215,11 @@
 .wicked {
   background-image: url("../img/ad1-image.png");
   height: 452px; }
+  .wicked:before {
+    content: '';
+    display: block;
+    height: 35px;
+    background: url(../img/semicircle-image.png) no-repeat 50% 0; }
 
 .wicked-background-color {
   height: 100%;
@@ -297,7 +295,9 @@
       height: 100%; } }
 
 .article-image-container {
-  width: 50.7%; }
+  width: 50.7%;
+  background: url(../img/article1-image.png) no-repeat 50% 50%;
+  background-size: cover; }
   @media screen and (max-width: 730px) {
     .article-image-container {
       width: 100%; } }

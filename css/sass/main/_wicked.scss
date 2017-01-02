@@ -1,6 +1,13 @@
 .wicked {
     background-image: url("../img/ad1-image.png");
     height: 452px;
+
+    &:before {
+        content: '';
+        display: block;
+        height: 35px;
+        background: url(../img/semicircle-image.png) no-repeat 50% 0;
+    }
 }
 
 .wicked-background-color {

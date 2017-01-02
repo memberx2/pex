@@ -1,14 +1,7 @@
 .header {
-    background: url("../img/header-background.png") no-repeat center center fixed;
+    background: url(../img/header-background.png) no-repeat 50% 50% fixed;
     background-size: cover;
-    min-height: 700px;
-    @media screen and (max-width: $break-small) {
-        background-size: 100% 100%;
-    }
-    @media screen and (min-device-width: $break-large-start) and (max-width: $break-large-end) {
-        min-height: 1024px;
-        background-size: 100% 100%;
-    }
+    min-height: 100vh;
 }
 
 .header-nav {
