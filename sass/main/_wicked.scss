@@ -1,7 +1,6 @@
 .wicked {
     background-image: url(../img/ad1-image.png);
     height: 452px;
-
     &:before {
         content: '';
         display: block;
@@ -20,7 +19,7 @@
 
 .wicked-container {
     margin: 0 auto;
-    padding-top: 122px;
+    padding-top: 88px;
     text-align: center;
     width: 33%;
     max-width: 1327px;
@@ -34,6 +33,7 @@
         width: 65%;
     }
 }
+
 
 .wicked-title {
     font-size: 29px;
@@ -57,4 +57,3 @@
 .button-form {
     margin-top: 24px;
 }
-
