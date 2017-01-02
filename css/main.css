@@ -425,7 +425,7 @@ template {
   height: 86px; }
 
 .header-logo {
-  margin: 32px 0 0 162px; }
+  margin: 32px 0 0 130px; }
   @media (max-width: 768px) {
     .header-logo {
       margin: 36px 0 0 29px; } }
@@ -698,8 +698,10 @@ template {
 
 .wicked-description {
   font-size: 15px;
-  padding-bottom: 28px;
-  margin: 0 1px; }
+  padding-bottom: 9px;
+  width: 83%;
+  margin: 10px 0 0 54px;
+  line-height: 26px; }
   @media (max-width: 768px) {
     .wicked-description {
       width: 100%;
@@ -860,9 +862,9 @@ template {
     padding-top: 233px; } }
 
 .photography-sign {
-  border: 1px solid #fff;
-  height: 28px;
-  width: 113px;
+  border: 2px solid #fff;
+  height: 31px;
+  width: 135px;
   border-radius: 30px;
   text-align: center;
   position: relative;
@@ -872,7 +874,8 @@ template {
   font-size: 13px;
   padding-top: 6px;
   position: absolute;
-  left: 21%; }
+  left: 21%;
+  top: 11%; }
 
 .photography-title {
   margin-bottom: 18px;
@@ -893,7 +896,7 @@ template {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 90px;
-  max-width: 25%;
+  max-width: 26%;
   -ms-flex-pack: justify;
       justify-content: space-between; }
   @media (max-width: 768px) {
@@ -1020,7 +1023,8 @@ template {
   height: 62px;
   border: 0;
   font-size: 18px;
-  outline: none; }
+  outline: none;
+  cursor: pointer; }
 
 .button-color {
   width: 282px;
@@ -1031,7 +1035,7 @@ template {
   color: #fff; }
 
 .button-white {
-  width: 289px;
+  width: 341px;
   background-color: #fff;
   color: #E7526B; }
   @media (max-width: 768px) {

@@ -45,8 +45,10 @@
 
 .wicked-description {
     font-size: 15px;
-    padding-bottom: 28px;
-    margin: 0 1px;
+    padding-bottom: 9px;
+    width: 83%;
+    margin: 10px 0 0 54px;
+    line-height: 26px;
     @include media ("<=tablet") {
         width: 100%;
         margin: 0 auto;

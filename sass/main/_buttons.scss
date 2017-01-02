@@ -4,6 +4,7 @@
     border: 0;
     font-size: 18px;
     outline: none;
+    cursor: pointer;
 }
 
 .button-color {
@@ -16,7 +17,7 @@
 }
 
 .button-white {
-    width: 289px;
+    width: 341px;
     background-color: $color-primary;
     color: $color-background-secondary;
     @include media ("<=tablet") {

@@ -24,9 +24,9 @@
 }
 
 .photography-sign {
-    border: 1px solid $color-primary;
-    height: 28px;
-    width: 113px;
+    border: 2px solid $color-primary;
+    height: 31px;
+    width: 135px;
     border-radius: 30px;
     text-align: center;
     position: relative;
@@ -38,6 +38,7 @@
     padding-top: 6px;
     position: absolute;
     left: 21%;
+    top: 11%;
 }
 
 .photography-title {
@@ -58,7 +59,7 @@
 .author-container {
     display: flex;
     margin-bottom: 90px;
-    max-width: 25%;
+    max-width: 26%;
     justify-content: space-between;
     @include media ("<=tablet") {
         width: 47.8%;
