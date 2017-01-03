@@ -6,11 +6,11 @@
 
 .header-nav {
     border-bottom: 0.1px groove $color-primary;
-    height: 86px;
+    height: 102px;
 }
 
 .header-logo {
-    margin: 32px 0 0 130px;
+    margin: 45px 0 0 130px;
     @include media ("<=tablet") {
         margin: 36px 0 0 29px;
     }
@@ -100,7 +100,7 @@
         list-style-type: none;
         display: inline-block;
         float: right;
-        margin-top: 33px;
+        margin-top: 41px;
     }
     @include media ("<=desktop") {
         display: none;
@@ -134,7 +134,7 @@
         font-size: 13px;
         text-decoration: none;
         color: $color-primary;
-        padding-bottom: 35px;
+        padding-bottom: 39px;
     }
     @include media ("<=desktop") {
         color: $color-secondary;
@@ -149,17 +149,17 @@
 
 .header-search-form {
     position: relative;
-    width: 190px;
+    width: 255px;
     margin: auto;
 }
 
 .search-input {
     border-radius: 30px;
-    height: 34px;
+    height: 44px;
     padding-left: 28px;
     font-size: 12px;
     font-family: $font-sans-serif;
-    width: 160px;
+    width: 220px;
     margin-top: -10px;
     outline: none;
     border: 0;
