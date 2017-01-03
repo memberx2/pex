@@ -425,7 +425,7 @@ template {
   height: 102px; }
 
 .header-logo {
-  margin: 32px 0 0 130px; }
+  margin: 45px 0 0 130px; }
   @media (max-width: 768px) {
     .header-logo {
       margin: 36px 0 0 29px; } }
