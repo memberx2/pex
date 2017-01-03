@@ -594,7 +594,7 @@ template {
 
 .header-subtitle {
   font-size: 12px;
-  margin: 9px 19px 0 0; }
+  margin: 9px 22px 0 0; }
   @media (max-width: 768px) {
     .header-subtitle {
       margin: 9px 0 0 0; } }
