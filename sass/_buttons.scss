@@ -1,25 +1,25 @@
 .button {
-    border-radius: 30px;
-    height: 62px;
     border: 0;
-    font-size: 18px;
-    outline: none;
+    border-radius: 30px;
     cursor: pointer;
+    font-size: 18px;
+    height: 62px;
+    outline: none;
 }
 
 .button-color {
-    width: 282px;
     background-color: $color-button-primary;
-    font-weight: bold;
     border-top: thin solid $color-button-secondary;
     box-shadow: 0px 0px 2px 0px $color-button-secondary;
     color: $color-primary;
+    font-weight: bold;
+    width: 282px;
 }
 
 .button-white {
-    width: 341px;
     background-color: $color-primary;
     color: $color-background-secondary;
+    width: 341px;
     @include media ("<=tablet") {
         width: 258px;
     }

@@ -4,13 +4,12 @@
 }
 
 .experience-container {
-    height: 100%;
-    width: 100%;
     color: $color-primary;
     font-family: $font-sans-serif;
-    padding-top: 150px;
-    margin: 0 auto;
+    height: 100%;
     width: 56%;
+    margin: 0 auto;
+    padding-top: 150px;
     text-align: center;
     @include media ("<=tablet") {
         padding-top: 119px;
@@ -23,8 +22,8 @@
 
 .experience-title {
     font-size: 40px;
-    padding-bottom: 18px;
     font-weight: normal;
+    padding-bottom: 18px;
     @include media ("<=tablet") {
         font-size: 24px;
     }
@@ -34,18 +33,18 @@
 }
 
 .experience-subtitle {
+    color: $color-secondary-subtitle;
     font-size: 20px;
+    line-height: 27px;
     padding-bottom: 25px;
     width: 750px;
-    color: $color-secondary-subtitle;
-    line-height: 27px;
     @include media ("<=tablet") {
         font-size: 13px;
         padding-bottom: 24px;
     }
     @include media (">tablet", "<=desktop") {
-        width: 762px;
         margin: 0;
+        width: 762px;
     }
 }
 

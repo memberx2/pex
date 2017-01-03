@@ -1,8 +1,8 @@
 .article {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     height: 419px;
+    justify-content: space-between;
     @include media ("<=tablet") {
         flex-direction: column;
         height: 100%;
@@ -14,9 +14,6 @@
 
 .article-image-container {
     width: 50.7%;
-    /*background: url(../img/article1-image.png) no-repeat 50% 50%;
-    background-size: cover;*/
-
     @include media ("<=tablet") {
         width: 100%;
     }
@@ -44,12 +41,11 @@
 .watch {
     height: 100%;
     object-fit: cover;
-    
 }
 
 .article-text-container {
-    font-family: $font-sans-serif;
     color: $color-secondary;
+    font-family: $font-sans-serif;
     @include media (">tablet", "<=desktop") {
         width: 49%;
     }
@@ -66,8 +62,8 @@
 
 .article-subtitle {
     font-size: 19px;
-    padding-bottom: 4%;
     line-height: 26px;
+    padding-bottom: 4%;
     @include media (">tablet", "<=desktop") {
         font-size: 14px;
         line-height: 23px;

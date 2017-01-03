@@ -1,10 +1,10 @@
 .photography {
     background-image: url(../img/photography-background.png);
-    height: 563px;
     background-size: cover;
+    height: 563px;
     @include media ("<=tablet") {
-        height: 640px;
         background-size: auto 100%;
+        height: 640px;
     }
     @include media (">tablet", "<=desktop") {
         background-size: auto 100%;
@@ -12,9 +12,9 @@
 }
 
 .photography-container {
-    padding: 303px 0 0;
     color: $color-primary;
     font-family: $font-sans-serif;
+    padding: 303px 0 0;
     @include media ("<=tablet") {
         padding: 277px 0 87px;
     }
@@ -25,12 +25,12 @@
 
 .photography-sign {
     border: 2px solid $color-primary;
+    border-radius: 30px;
     height: 31px;
     width: 135px;
-    border-radius: 30px;
-    text-align: center;
-    position: relative;
     margin-bottom: 14px;
+    position: relative;
+    text-align: center;
 }
 
 .photography-sign-text {
@@ -42,14 +42,14 @@
 }
 
 .photography-title {
-    margin-bottom: 18px;
     font-size: 40px;
     font-weight: normal;
-    width: 53%;
     line-height: 43px;
+    margin-bottom: 18px;
+    width: 53%;
     @include media ("<=tablet") {
-        width: 86%;
         font-size: 27px;
+        width: 86%;
     }
     @include media (">tablet", "<=desktop") {
         width: 440px;
@@ -58,9 +58,9 @@
 
 .author-container {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 90px;
     max-width: 26%;
-    justify-content: space-between;
     @include media ("<=tablet") {
         width: 47.8%;
     }
@@ -75,8 +75,8 @@
 }
 
 .photography-subtitle {
+    align-items: center;
     display: flex;
     font-size: 13px;
     justify-content: center;
-    align-items: center;
 }

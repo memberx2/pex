@@ -15,9 +15,9 @@
 }
 
 .get-in-touch-subtitle {
+    line-height: 21px;
     padding-bottom: 24px;
     width: 362px;
-    line-height: 21px;
     @include media ("<=tablet") {
         width: 81%;
     }
